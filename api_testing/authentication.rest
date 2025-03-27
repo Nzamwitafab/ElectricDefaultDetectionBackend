@@ -1,0 +1,20 @@
+POST http://127.0.0.1:8000/api/register/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzMDg3OTM1LCJpYXQiOjE3NDMwODYxMzUsImp0aSI6IjIxNjkzMDlkNjhhZjRiNmE4NTJiMDQ3NzdhODlmY2Q2IiwidXNlcl9pZCI6Mn0.iAv32X2I32slok6xSg01PyiewH64bvHRhN2KcfM6YhA
+Content-Type: application/json
+
+{
+    "name": "Niyigena pe",
+    "email": "pea@gmail.com",
+    "phone_number": "123456789",
+    "password": "strongpassword123",
+    "role": "Admin"
+}
+
+### Login Request
+POST http://127.0.0.1:8000/api/login/
+Content-Type: application/json
+
+{
+    "email": "abdl@gmail.com",
+    "password": "strongpassword123"
+}
