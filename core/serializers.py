@@ -21,3 +21,13 @@ class UserLoginSerializer(serializers.Serializer):
         if len(value) < 6:
             raise serializers.ValidationError("Password must be at least 6 characters long.")
         return value
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['id', 'email', 'name', 'phone_number', 'role','password']  # Add other fields if needed
+
+class UserUpdateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        # fields = ['email', 'name', 'phone_number', 'role']  # Add other fields for updating if needed
+        read_only_fields = ['id']  # Prevent updating the 'id'

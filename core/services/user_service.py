@@ -1,9 +1,9 @@
 # core/services/user_service.py
 from core.repositories.user_repository import UserRepository
-from rest_framework.exceptions import ValidationError
-from rest_framework_simplejwt.tokens import RefreshToken
-from rest_framework_simplejwt.authentication import JWTAuthentication
-from rest_framework_simplejwt.exceptions import InvalidToken, AuthenticationFailed
+from rest_framework.exceptions import ValidationError # type: ignore
+from rest_framework_simplejwt.tokens import RefreshToken # type: ignore
+from rest_framework_simplejwt.authentication import JWTAuthentication # type: ignore
+from rest_framework_simplejwt.exceptions import InvalidToken, AuthenticationFailed # type: ignore
 from core.models import User
 def register_user(data):
     # Validate required fields
@@ -83,3 +83,33 @@ class CustomJWTAuthentication(JWTAuthentication):
             raise AuthenticationFailed('User not found', code='user_not_found')
         except KeyError:
             raise InvalidToken('Token contains no recognizable user identification')
+        
+def get_user_by_id(user_id):
+    return UserRepository.get_user_by_id(user_id)
+
+def get_all_users():
+    return UserRepository.get_all_users()
+
+def update_user(user_id, data):
+    user = UserRepository.get_user_by_id(user_id)
+    if not user:
+        raise ValidationError("User not found.")
+
+    # Email check
+    if 'email' in data:
+        existing_user = UserRepository.get_user_by_email(email=data['email'])
+        if existing_user and existing_user.id != user_id:  # Ensure it's not the same user
+            raise ValidationError("A user with this email already exists.")  
+
+    # Password validation and hashing
+    if 'password' in data:
+        if len(data['password']) < 8:
+            raise ValidationError("Password must be at least 8 characters long.")  
+        user.set_password(data['password'])  # Properly hash the password
+        data['password'] = user.password  # Store the hashed password
+
+    # Proceed with the update
+    return UserRepository.update_user(user_id, data)
+
+def delete_user(user_id):
+    return UserRepository.delete_user(user_id)

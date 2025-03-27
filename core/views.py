@@ -1,13 +1,13 @@
 # core/views.py
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from rest_framework import status
-from core.services.user_service import register_user
-from core.serializers import UserRegisterSerializer,UserLoginSerializer
+from rest_framework.decorators import api_view # type: ignore
+from rest_framework.response import Response # type: ignore
+from rest_framework import status # type: ignore
+from core.services.user_service import delete_user, get_all_users, get_user_by_id, register_user, update_user
+from core.serializers import UserRegisterSerializer,UserLoginSerializer,UserSerializer,UserUpdateSerializer
 from core.services.user_service import login_user
-from rest_framework.decorators import api_view, authentication_classes, permission_classes
+from rest_framework.decorators import api_view, authentication_classes, permission_classes # type: ignore
 from core.services.user_service import CustomJWTAuthentication
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated # type: ignore
 
 @api_view(['POST'])
 @authentication_classes([CustomJWTAuthentication])  # Requires valid JWT
@@ -70,7 +70,49 @@ def login_user_view(request):
         {"detail": "Method not allowed"},
         status=status.HTTP_405_METHOD_NOT_ALLOWED
     )
+
 @api_view(['GET'])
-def test_view(request):
-    print("==== TEST VIEW HIT ====")
-    return Response({"status": "ok"})
+@authentication_classes([CustomJWTAuthentication])
+@permission_classes([IsAuthenticated])
+def get_user_by_id_view(request, user_id):  # Ensure 'user_id' is used here
+    print("==== GET USER BY ID ====")
+    user = get_user_by_id(user_id)
+    if user:
+        serializer = UserSerializer(user)
+        return Response({"user": serializer.data}, status=status.HTTP_200_OK)
+    return Response({"detail": "User not found"}, status=status.HTTP_404_NOT_FOUND)
+
+@api_view(['GET'])
+@authentication_classes([CustomJWTAuthentication])
+@permission_classes([IsAuthenticated])
+def get_all_users_view(request):
+    print("==== GET ALL USERS ====")
+    users = get_all_users()
+    if users:
+        serializer = UserSerializer(users, many=True)
+        return Response({"users": serializer.data}, status=status.HTTP_200_OK)
+    return Response({"detail": "No users found"}, status=status.HTTP_404_NOT_FOUND)
+
+
+@api_view(['PUT','GET','POST'])
+@authentication_classes([CustomJWTAuthentication])
+@permission_classes([IsAuthenticated])
+def update_user_view(request, user_id):
+    print("==== UPDATE USER ====")
+    user = get_user_by_id(user_id)
+    if user:
+        updated_user = update_user(user.id, request.data)
+        return Response({"user": UserSerializer(updated_user).data}, status=status.HTTP_200_OK)
+    return Response({"detail": "User not found"}, status=status.HTTP_404_NOT_FOUND)
+
+
+@api_view(['DELETE','GET','POST'])
+@authentication_classes([CustomJWTAuthentication])
+@permission_classes([IsAuthenticated])
+def delete_user_view(request,user_id):
+    print("==== DELETE USER ====")
+    user = get_user_by_id(user_id)
+    if user:
+        delete_user(user.id)
+        return Response({"detail": "User deleted successfully"}, status=status.HTTP_204_NO_CONTENT)
+    return Response({"detail": "User not found"}, status=status.HTTP_404_NOT_FOUND)
