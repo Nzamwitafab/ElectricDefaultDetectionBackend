@@ -1,0 +1,41 @@
+### Login Request
+POST http://127.0.0.1:8000/api/login/
+Content-Type: application/json
+
+{
+    "email": "test1@gmail.com",
+    "password": "strongpassword123"
+}
+### get by user_id
+GET http://127.0.0.1:8000/api/profile/21/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDA5NTE0LCJpYXQiOjE3NDM0MDc3MTQsImp0aSI6IjZmNjk3NGM3NmFlZTQxZGM4NzlkMzJmNjFmMjE4ZWE4IiwidXNlcl9pZCI6Mzd9.3jCR8cbxO9R3P3Ftk_sKir00aAfIcEPnJacQ0xS6-qk
+Content-Type: application/json
+
+### update all flieds of profile
+PUT http://127.0.0.1:8000/api/profile/3/update/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDA5NTE0LCJpYXQiOjE3NDM0MDc3MTQsImp0aSI6IjZmNjk3NGM3NmFlZTQxZGM4NzlkMzJmNjFmMjE4ZWE4IiwidXNlcl9pZCI6Mzd9.3jCR8cbxO9R3P3Ftk_sKir00aAfIcEPnJacQ0xS6-qk
+Content-Type: application/json
+
+{
+    "address": "123 Main Street",
+    "profile_picture": "/media/profile_pictures/user3.jpg",
+    "date_of_birth": "1990-01-15",
+    "gender": "Male",
+    "role": "Admin"
+}
+
+### update few fields of profile
+PATCH http://127.0.0.1:8000/api/profiles/21/update/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDExMzY2LCJpYXQiOjE3NDM0MDk1NjYsImp0aSI6ImMzZWEyOTVmMDQ2NzRmNTk4MWY3NjIyNWFkNTliZTI1IiwidXNlcl9pZCI6Mzd9.8_g6Izc0oxhE85fhdRP8pGd_fc8m6JA6uyMDQ5S44so
+Content-Type: application/json
+
+{
+    "address": "123 Main Street",
+    "date_of_birth": "1990-01-15",
+    "gender": "Male"
+}
+
+### delete profile by user_id
+DELETE http://127.0.0.1:8000/api/profile/3/delete/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzMzIyOTk3LCJpYXQiOjE3NDMzMjExOTcsImp0aSI6IjUyMTFhOTYyYWRhZTQ2MTE4OGM3MTNmYmU0ZmJiMDZjIiwidXNlcl9pZCI6M30.xB1TxELib1ZUnvbBt7DkI9PnhEJSvlzrGcde_LEkkn8
+Content-Type: application/json

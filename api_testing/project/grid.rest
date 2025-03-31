@@ -1,0 +1,42 @@
+POST http://127.0.0.1:8000/api/login/
+Content-Type: application/json
+
+{
+    "email": "test1@gmail.com",
+    "password": "strongpassword123"
+}
+### Create a new problem (POST request)
+POST http://127.0.0.1:8000/api/grids/create/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI2Mjc1LCJpYXQiOjE3NDM0MjQ0NzUsImp0aSI6IjZiZWZlZDk5MDc3MDRhNDJhY2E0NGZkZjVhNTE1ZDU5IiwidXNlcl9pZCI6Mzd9.QnDmg4dYCURGC1oD1V7wUmy9GgNvucfawXbtJd8_HNQ
+Content-Type: application/json
+
+{
+    "total_clients": 500,
+    "total_networks": 25,
+    "energy_allocated": 5000.0,
+    "status": "Operational"
+}
+### Get all grids (GET request)
+GET http://127.0.0.1:8000/api/grids/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI2Mjc1LCJpYXQiOjE3NDM0MjQ0NzUsImp0aSI6IjZiZWZlZDk5MDc3MDRhNDJhY2E0NGZkZjVhNTE1ZDU5IiwidXNlcl9pZCI6Mzd9.QnDmg4dYCURGC1oD1V7wUmy9GgNvucfawXbtJd8_HNQ
+Content-Type: application/json
+### Get a grid by grid_id (GET request)
+GET http://127.0.0.1:8000/api/grids/3/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI2Mjc1LCJpYXQiOjE3NDM0MjQ0NzUsImp0aSI6IjZiZWZlZDk5MDc3MDRhNDJhY2E0NGZkZjVhNTE1ZDU5IiwidXNlcl9pZCI6Mzd9.QnDmg4dYCURGC1oD1V7wUmy9GgNvucfawXbtJd8_HNQ
+Content-Type: application/json
+
+### Update a grid
+PATCH http://127.0.0.1:8000/api/grids/3/update/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI2Mjc1LCJpYXQiOjE3NDM0MjQ0NzUsImp0aSI6IjZiZWZlZDk5MDc3MDRhNDJhY2E0NGZkZjVhNTE1ZDU5IiwidXNlcl9pZCI6Mzd9.QnDmg4dYCURGC1oD1V7wUmy9GgNvucfawXbtJd8_HNQ
+Content-Type: application/json
+
+{
+    "total_clients": 600,
+    "total_networks": 30,
+    "energy_allocated": 5500.0,
+    "status": "Operational"
+}
+### Delete a grid by grid_id (DELETE request)
+DELETE http://127.0.0.1:8000/api/grids/2/delete/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI2Mjc1LCJpYXQiOjE3NDM0MjQ0NzUsImp0aSI6IjZiZWZlZDk5MDc3MDRhNDJhY2E0NGZkZjVhNTE1ZDU5IiwidXNlcl9pZCI6Mzd9.QnDmg4dYCURGC1oD1V7wUmy9GgNvucfawXbtJd8_HNQ
+Content-Type: application/json

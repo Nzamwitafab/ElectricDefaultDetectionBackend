@@ -4,8 +4,8 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="robots" content="NONE,NOARCHIVE">
-    <title>TypeError
-        at /api/users/</title>
+    <title>AttributeError
+        at /api/register/</title>
     <style>
         html * {
             padding: 0;
@@ -321,18 +321,18 @@
 
 <body>
     <header id="summary">
-        <h1>TypeError
-            at /api/users/</h1>
-        <pre class="exception_value">Object of type User is not JSON serializable</pre>
+        <h1>AttributeError
+            at /api/register/</h1>
+        <pre class="exception_value">&#x27;Profile&#x27; object has no attribute &#x27;id&#x27;</pre>
         <table class="meta">
 
             <tr>
                 <th scope="row">Request Method:</th>
-                <td>GET</td>
+                <td>POST</td>
             </tr>
             <tr>
                 <th scope="row">Request URL:</th>
-                <td>http://127.0.0.1:8000/api/users/</td>
+                <td>http://127.0.0.1:8000/api/register/</td>
             </tr>
 
             <tr>
@@ -342,28 +342,28 @@
 
             <tr>
                 <th scope="row">Exception Type:</th>
-                <td>TypeError</td>
+                <td>AttributeError</td>
             </tr>
 
 
             <tr>
                 <th scope="row">Exception Value:</th>
                 <td>
-                    <pre>Object of type User is not JSON serializable</pre>
+                    <pre>&#x27;Profile&#x27; object has no attribute &#x27;id&#x27;</pre>
                 </td>
             </tr>
 
 
             <tr>
                 <th scope="row">Exception Location:</th>
-                <td><span class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py</span>,
-                    line 180, in default</td>
+                <td><span class="fname">E:\kabano\version2\ElectricDefaultDetectionBackend\core\views.py</span>, line
+                    43, in register_user_view</td>
             </tr>
 
 
             <tr>
                 <th scope="row">Raised during:</th>
-                <td>core.views.get_all_users_view</td>
+                <td>core.views.register_user_view</td>
             </tr>
 
             <tr>
@@ -387,7 +387,7 @@
             </tr>
             <tr>
                 <th scope="row">Server time:</th>
-                <td>Thu, 27 Mar 2025 18:48:24 +0000</td>
+                <td>Sun, 30 Mar 2025 12:18:34 +0000</td>
             </tr>
         </table>
     </header>
@@ -412,70 +412,70 @@
 
 
 
-                        <div class="context" id="c1982945398080">
+                        <div class="context" id="c3006308279296">
 
-                            <ol start="48" class="pre-context" id="pre1982945398080">
+                            <ol start="48" class="pre-context" id="pre3006308279296">
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre>        return inner</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre>    else:</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre>        @wraps(get_response)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre>        def inner(request):</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre>            try:</pre>
                                 </li>
 
                             </ol>
 
                             <ol start="55" class="context-line">
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre>                response = get_response(request)
                                ^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
                                 </li>
                             </ol>
 
-                            <ol start='56' class="post-context" id="post1982945398080">
+                            <ol start='56' class="post-context" id="post3006308279296">
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre>            except Exception as exc:</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre>                response = response_for_exception(request, exc)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre>            return response</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre>        return inner</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945398080', 'post1982945398080')">
+                                <li onclick="toggle('pre3006308279296', 'post3006308279296')">
                                     <pre></pre>
                                 </li>
 
@@ -489,7 +489,7 @@
                         <details>
                             <summary class="commands">Local vars</summary>
 
-                            <table class="vars" id="v1982945398080">
+                            <table class="vars" id="v3006308279296">
                                 <thead>
                                     <tr>
                                         <th scope="col">Variable</th>
@@ -501,21 +501,21 @@
                                     <tr>
                                         <td>exc</td>
                                         <td class="code">
-                                            <pre>TypeError(&#x27;Object of type User is not JSON serializable&#x27;)</pre>
+                                            <pre>AttributeError(&quot;&#x27;Profile&#x27; object has no attribute &#x27;id&#x27;&quot;)</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>get_response</td>
                                         <td class="code">
-                                            <pre>&lt;bound method BaseHandler._get_response of &lt;django.core.handlers.wsgi.WSGIHandler object at 0x000001CDAF635BE0&gt;&gt;</pre>
+                                            <pre>&lt;bound method BaseHandler._get_response of &lt;django.core.handlers.wsgi.WSGIHandler object at 0x000002BBF3AF97F0&gt;&gt;</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>request</td>
                                         <td class="code">
-                                            <pre>&lt;WSGIRequest: GET &#x27;/api/users/&#x27;&gt;</pre>
+                                            <pre>&lt;WSGIRequest: POST &#x27;/api/register/&#x27;&gt;</pre>
                                         </td>
                                     </tr>
 
@@ -529,75 +529,75 @@
                     <li class="frame django">
 
                         <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py</code>,
-                        line 220, in _get_response
+                        line 197, in _get_response
 
 
 
-                        <div class="context" id="c1982945394816">
+                        <div class="context" id="c3006289328448">
 
-                            <ol start="213" class="pre-context" id="pre1982945394816">
+                            <ol start="190" class="pre-context" id="pre3006289328448">
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
-                                    <pre>                self.check_response(</pre>
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
+                                    <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
-                                    <pre>                    response,</pre>
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
+                                    <pre>        if response is None:</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
-                                    <pre>                    middleware_method,</pre>
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
+                                    <pre>            wrapped_callback = self.make_view_atomic(callback)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
-                                    <pre>                    name=&quot;%s.process_template_response&quot;</pre>
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
+                                    <pre>            # If it is an asynchronous view, run it in a subthread.</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
-                                    <pre>                    % (middleware_method.__self__.__class__.__name__,),</pre>
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
+                                    <pre>            if iscoroutinefunction(wrapped_callback):</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
-                                    <pre>                )</pre>
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
+                                    <pre>                wrapped_callback = async_to_sync(wrapped_callback)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
                                     <pre>            try:</pre>
                                 </li>
 
                             </ol>
 
-                            <ol start="220" class="context-line">
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
-                                    <pre>                response = response.render()
-                                ^^^^^^^^^^^^^^^^^</pre> <span>…</span>
+                            <ol start="197" class="context-line">
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
+                                    <pre>                response = wrapped_callback(request, *callback_args, **callback_kwargs)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
                                 </li>
                             </ol>
 
-                            <ol start='221' class="post-context" id="post1982945394816">
+                            <ol start='198' class="post-context" id="post3006289328448">
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
                                     <pre>            except Exception as e:</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
                                     <pre>                response = self.process_exception_by_middleware(e, request)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
                                     <pre>                if response is None:</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
                                     <pre>                    raise</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945394816', 'post1982945394816')">
-                                    <pre>        return response</pre>
+                                <li onclick="toggle('pre3006289328448', 'post3006289328448')">
+                                    <pre>        # Complain if the view returned None (a common error).</pre>
                                 </li>
 
                             </ol>
@@ -610,7 +610,7 @@
                         <details>
                             <summary class="commands">Local vars</summary>
 
-                            <table class="vars" id="v1982945394816">
+                            <table class="vars" id="v3006289328448">
                                 <thead>
                                     <tr>
                                         <th scope="col">Variable</th>
@@ -622,7 +622,7 @@
                                     <tr>
                                         <td>callback</td>
                                         <td class="code">
-                                            <pre>&lt;function View.as_view.&lt;locals&gt;.view at 0x000001CDAF6431A0&gt;</pre>
+                                            <pre>&lt;function View.as_view.&lt;locals&gt;.view at 0x000002BBF47B0EA0&gt;</pre>
                                         </td>
                                     </tr>
 
@@ -650,7 +650,7 @@
                                     <tr>
                                         <td>request</td>
                                         <td class="code">
-                                            <pre>&lt;WSGIRequest: GET &#x27;/api/users/&#x27;&gt;</pre>
+                                            <pre>&lt;WSGIRequest: POST &#x27;/api/register/&#x27;&gt;</pre>
                                         </td>
                                     </tr>
 
@@ -664,14 +664,14 @@
                                     <tr>
                                         <td>self</td>
                                         <td class="code">
-                                            <pre>&lt;django.core.handlers.wsgi.WSGIHandler object at 0x000001CDAF635BE0&gt;</pre>
+                                            <pre>&lt;django.core.handlers.wsgi.WSGIHandler object at 0x000002BBF3AF97F0&gt;</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>wrapped_callback</td>
                                         <td class="code">
-                                            <pre>&lt;function View.as_view.&lt;locals&gt;.view at 0x000001CDAF6431A0&gt;</pre>
+                                            <pre>&lt;function View.as_view.&lt;locals&gt;.view at 0x000002BBF47B0EA0&gt;</pre>
                                         </td>
                                     </tr>
 
@@ -684,76 +684,68 @@
 
                     <li class="frame django">
 
-                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py</code>,
-                        line 114, in render
+                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\decorators\csrf.py</code>,
+                        line 65, in _view_wrapper
 
 
 
-                        <div class="context" id="c1982945397888">
+                        <div class="context" id="c3006289326912">
 
-                            <ol start="107" class="pre-context" id="pre1982945397888">
+                            <ol start="58" class="pre-context" id="pre3006289326912">
 
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>        If the content has already been rendered, this is a no-op.</pre>
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
+                                    <pre>        async def _view_wrapper(request, *args, **kwargs):</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
+                                    <pre>            return await view_func(request, *args, **kwargs)</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>        Return the baked response instance.</pre>
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
+                                    <pre>    else:</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>        &quot;&quot;&quot;</pre>
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
+                                    <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>        retval = self</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>        if not self._is_rendered:</pre>
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
+                                    <pre>        def _view_wrapper(request, *args, **kwargs):</pre>
                                 </li>
 
                             </ol>
 
-                            <ol start="114" class="context-line">
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>            self.content = self.rendered_content
-                                ^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
+                            <ol start="65" class="context-line">
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
+                                    <pre>            return view_func(request, *args, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
                                 </li>
                             </ol>
 
-                            <ol start='115' class="post-context" id="post1982945397888">
+                            <ol start='66' class="post-context" id="post3006289326912">
 
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>            for post_callback in self._post_render_callbacks:</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>                newretval = post_callback(retval)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>                if newretval is not None:</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>                    retval = newretval</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
-                                    <pre>        return retval</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945397888', 'post1982945397888')">
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
                                     <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
+                                    <pre>    _view_wrapper.csrf_exempt = True</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289326912', 'post3006289326912')">
+                                    <pre>    return wraps(view_func)(_view_wrapper)</pre>
                                 </li>
 
                             </ol>
@@ -766,420 +758,7 @@
                         <details>
                             <summary class="commands">Local vars</summary>
 
-                            <table class="vars" id="v1982945397888">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Variable</th>
-                                        <th scope="col">Value</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-
-                                    <tr>
-                                        <td>retval</td>
-                                        <td class="code">
-                                            <pre>&lt;Response status_code=200, &quot;application/json&quot;&gt;</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>self</td>
-                                        <td class="code">
-                                            <pre>&lt;Response status_code=200, &quot;application/json&quot;&gt;</pre>
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-                        </details>
-
-                    </li>
-
-
-                    <li class="frame user">
-
-                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\response.py</code>,
-                        line 74, in rendered_content
-
-
-
-                        <div class="context" id="c1982945398976">
-
-                            <ol start="67" class="pre-context" id="pre1982945398976">
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>        if content_type is None and charset is not None:</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>            content_type = &quot;{}; charset={}&quot;.format(media_type, charset)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>        elif content_type is None:</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>            content_type = media_type</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>        self[&#x27;Content-Type&#x27;] = content_type</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre></pre>
-                                </li>
-
-                            </ol>
-
-                            <ol start="74" class="context-line">
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>        ret = renderer.render(self.data, accepted_media_type, context)
-                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
-                                </li>
-                            </ol>
-
-                            <ol start='75' class="post-context" id="post1982945398976">
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>        if isinstance(ret, str):</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>            assert charset, (</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>                &#x27;renderer returned unicode, and did not specify &#x27;</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>                &#x27;a charset value.&#x27;</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>            )</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398976', 'post1982945398976')">
-                                    <pre>            return ret.encode(charset)</pre>
-                                </li>
-
-                            </ol>
-
-                        </div>
-
-
-
-
-                        <details>
-                            <summary class="commands">Local vars</summary>
-
-                            <table class="vars" id="v1982945398976">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Variable</th>
-                                        <th scope="col">Value</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-
-                                    <tr>
-                                        <td>accepted_media_type</td>
-                                        <td class="code">
-                                            <pre>&#x27;application/json&#x27;</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>charset</td>
-                                        <td class="code">
-                                            <pre>None</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>content_type</td>
-                                        <td class="code">
-                                            <pre>&#x27;application/json&#x27;</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>context</td>
-                                        <td class="code">
-                                            <pre>{&#x27;args&#x27;: (),
- &#x27;kwargs&#x27;: {},
- &#x27;request&#x27;: &lt;rest_framework.request.Request: GET &#x27;/api/users/&#x27;&gt;,
- &#x27;response&#x27;: &lt;Response status_code=200, &quot;application/json&quot;&gt;,
- &#x27;view&#x27;: &lt;core.views.WrappedAPIView object at 0x000001CDAFBEA850&gt;}</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>media_type</td>
-                                        <td class="code">
-                                            <pre>&#x27;application/json&#x27;</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>renderer</td>
-                                        <td class="code">
-                                            <pre>&lt;rest_framework.renderers.JSONRenderer object at 0x000001CDB0C12190&gt;</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>self</td>
-                                        <td class="code">
-                                            <pre>&lt;Response status_code=200, &quot;application/json&quot;&gt;</pre>
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-                        </details>
-
-                    </li>
-
-
-                    <li class="frame user">
-
-                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py</code>,
-                        line 100, in render
-
-
-
-                        <div class="context" id="c1982945398272">
-
-                            <ol start="93" class="pre-context" id="pre1982945398272">
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>        indent = self.get_indent(accepted_media_type, renderer_context)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>        if indent is None:</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>            separators = SHORT_SEPARATORS if self.compact else LONG_SEPARATORS</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>        else:</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>            separators = INDENT_SEPARATORS</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre></pre>
-                                </li>
-
-                            </ol>
-
-                            <ol start="100" class="context-line">
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>        ret = json.dumps(
-                   </pre> <span>…</span>
-                                </li>
-                            </ol>
-
-                            <ol start='101' class="post-context" id="post1982945398272">
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>            data, cls=self.encoder_class,</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>            indent=indent, ensure_ascii=self.ensure_ascii,</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>            allow_nan=not self.strict, separators=separators</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>        )</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945398272', 'post1982945398272')">
-                                    <pre>        # We always fully escape \u2028 and \u2029 to ensure we output JSON</pre>
-                                </li>
-
-                            </ol>
-
-                        </div>
-
-
-
-
-                        <details>
-                            <summary class="commands">Local vars</summary>
-
-                            <table class="vars" id="v1982945398272">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Variable</th>
-                                        <th scope="col">Value</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-
-                                    <tr>
-                                        <td>accepted_media_type</td>
-                                        <td class="code">
-                                            <pre>&#x27;application/json&#x27;</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>data</td>
-                                        <td class="code">
-                                            <pre>{&#x27;users&#x27;: &lt;QuerySet [&lt;User: Nzamwitakuze Fabrice&gt;, &lt;User: Mugisha Abdul&gt;, &lt;User: Niyigena philbert&gt;, &lt;User: Niyigena Ernest&gt;, &lt;User: Niyigena patrick&gt;, &lt;User: Niyigena muta&gt;, &lt;User: Niyigena yo&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena new&gt;]&gt;}</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>indent</td>
-                                        <td class="code">
-                                            <pre>None</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>renderer_context</td>
-                                        <td class="code">
-                                            <pre>{&#x27;args&#x27;: (),
- &#x27;kwargs&#x27;: {},
- &#x27;request&#x27;: &lt;rest_framework.request.Request: GET &#x27;/api/users/&#x27;&gt;,
- &#x27;response&#x27;: &lt;Response status_code=200, &quot;application/json&quot;&gt;,
- &#x27;view&#x27;: &lt;core.views.WrappedAPIView object at 0x000001CDAFBEA850&gt;}</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>self</td>
-                                        <td class="code">
-                                            <pre>&lt;rest_framework.renderers.JSONRenderer object at 0x000001CDB0C12190&gt;</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>separators</td>
-                                        <td class="code">
-                                            <pre>(&#x27;,&#x27;, &#x27;:&#x27;)</pre>
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-                        </details>
-
-                    </li>
-
-
-                    <li class="frame user">
-
-                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\utils\json.py</code>,
-                        line 25, in dumps
-
-
-
-                        <div class="context" id="c1982945395328">
-
-                            <ol start="18" class="pre-context" id="pre1982945395328">
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre>    kwargs.setdefault(&#x27;allow_nan&#x27;, False)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre>    return json.dump(*args, **kwargs)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre>@functools.wraps(json.dumps)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre>def dumps(*args, **kwargs):</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre>    kwargs.setdefault(&#x27;allow_nan&#x27;, False)</pre>
-                                </li>
-
-                            </ol>
-
-                            <ol start="25" class="context-line">
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre>    return json.dumps(*args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
-                                </li>
-                            </ol>
-
-                            <ol start='26' class="post-context" id="post1982945395328">
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre>@functools.wraps(json.load)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre>def load(*args, **kwargs):</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre>    kwargs.setdefault(&#x27;parse_constant&#x27;, strict_constant)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395328', 'post1982945395328')">
-                                    <pre>    return json.load(*args, **kwargs)</pre>
-                                </li>
-
-                            </ol>
-
-                        </div>
-
-
-
-
-                        <details>
-                            <summary class="commands">Local vars</summary>
-
-                            <table class="vars" id="v1982945395328">
+                            <table class="vars" id="v3006289326912">
                                 <thead>
                                     <tr>
                                         <th scope="col">Variable</th>
@@ -1191,18 +770,28 @@
                                     <tr>
                                         <td>args</td>
                                         <td class="code">
-                                            <pre>({&#x27;users&#x27;: &lt;QuerySet [&lt;User: Nzamwitakuze Fabrice&gt;, &lt;User: Mugisha Abdul&gt;, &lt;User: Niyigena philbert&gt;, &lt;User: Niyigena Ernest&gt;, &lt;User: Niyigena patrick&gt;, &lt;User: Niyigena muta&gt;, &lt;User: Niyigena yo&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena new&gt;]&gt;},)</pre>
+                                            <pre>()</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>kwargs</td>
                                         <td class="code">
-                                            <pre>{&#x27;allow_nan&#x27;: False,
- &#x27;cls&#x27;: &lt;class &#x27;rest_framework.utils.encoders.JSONEncoder&#x27;&gt;,
- &#x27;ensure_ascii&#x27;: False,
- &#x27;indent&#x27;: None,
- &#x27;separators&#x27;: (&#x27;,&#x27;, &#x27;:&#x27;)}</pre>
+                                            <pre>{}</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>request</td>
+                                        <td class="code">
+                                            <pre>&lt;WSGIRequest: POST &#x27;/api/register/&#x27;&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>view_func</td>
+                                        <td class="code">
+                                            <pre>&lt;function View.as_view.&lt;locals&gt;.view at 0x000002BBF47B0E00&gt;</pre>
                                         </td>
                                     </tr>
 
@@ -1213,78 +802,78 @@
                     </li>
 
 
-                    <li class="frame user">
+                    <li class="frame django">
 
-                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py</code>,
-                        line 238, in dumps
+                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\generic\base.py</code>,
+                        line 104, in view
 
 
 
-                        <div class="context" id="c1982945395520">
+                        <div class="context" id="c3006306731648">
 
-                            <ol start="231" class="pre-context" id="pre1982945395520">
+                            <ol start="97" class="pre-context" id="pre3006306731648">
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre>        return _default_encoder.encode(obj)</pre>
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>            self = cls(**initkwargs)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre>    if cls is None:</pre>
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>            self.setup(request, *args, **kwargs)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre>        cls = JSONEncoder</pre>
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>            if not hasattr(self, &quot;request&quot;):</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre>    return cls(</pre>
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>                raise AttributeError(</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre>        skipkeys=skipkeys, ensure_ascii=ensure_ascii,</pre>
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>                    &quot;%s instance has no &#x27;request&#x27; attribute. Did you override &quot;</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre>        check_circular=check_circular, allow_nan=allow_nan, indent=indent,</pre>
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>                    &quot;setup() and forget to call super()?&quot; % cls.__name__</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre>        separators=separators, default=default, sort_keys=sort_keys,</pre>
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>                )</pre>
                                 </li>
 
                             </ol>
 
-                            <ol start="238" class="context-line">
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre>        **kw).encode(obj)
-                   ^^^^^^^^^^^</pre> <span>…</span>
+                            <ol start="104" class="context-line">
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>            return self.dispatch(request, *args, **kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
                                 </li>
                             </ol>
 
-                            <ol start='239' class="post-context" id="post1982945395520">
+                            <ol start='105' class="post-context" id="post3006306731648">
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>        view.view_class = cls</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>        view.view_initkwargs = initkwargs</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre>_default_decoder = JSONDecoder(object_hook=None, object_pairs_hook=None)</pre>
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>        # __name__ and __qualname__ are intentionally left unchanged as</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395520', 'post1982945395520')">
-                                    <pre>def detect_encoding(b):</pre>
+                                <li onclick="toggle('pre3006306731648', 'post3006306731648')">
+                                    <pre>        # view_class should be used to robustly determine the name of the view</pre>
                                 </li>
 
                             </ol>
@@ -1297,7 +886,7 @@
                         <details>
                             <summary class="commands">Local vars</summary>
 
-                            <table class="vars" id="v1982945395520">
+                            <table class="vars" id="v3006306731648">
                                 <thead>
                                     <tr>
                                         <th scope="col">Variable</th>
@@ -1307,193 +896,44 @@
                                 <tbody>
 
                                     <tr>
-                                        <td>allow_nan</td>
+                                        <td>args</td>
                                         <td class="code">
-                                            <pre>False</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>check_circular</td>
-                                        <td class="code">
-                                            <pre>True</pre>
+                                            <pre>()</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>cls</td>
                                         <td class="code">
-                                            <pre>&lt;class &#x27;rest_framework.utils.encoders.JSONEncoder&#x27;&gt;</pre>
+                                            <pre>&lt;class &#x27;core.views.WrappedAPIView&#x27;&gt;</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                        <td>default</td>
-                                        <td class="code">
-                                            <pre>None</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>ensure_ascii</td>
-                                        <td class="code">
-                                            <pre>False</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>indent</td>
-                                        <td class="code">
-                                            <pre>None</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>kw</td>
+                                        <td>initkwargs</td>
                                         <td class="code">
                                             <pre>{}</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                        <td>obj</td>
+                                        <td>kwargs</td>
                                         <td class="code">
-                                            <pre>{&#x27;users&#x27;: &lt;QuerySet [&lt;User: Nzamwitakuze Fabrice&gt;, &lt;User: Mugisha Abdul&gt;, &lt;User: Niyigena philbert&gt;, &lt;User: Niyigena Ernest&gt;, &lt;User: Niyigena patrick&gt;, &lt;User: Niyigena muta&gt;, &lt;User: Niyigena yo&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena new&gt;]&gt;}</pre>
+                                            <pre>{}</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                        <td>separators</td>
+                                        <td>request</td>
                                         <td class="code">
-                                            <pre>(&#x27;,&#x27;, &#x27;:&#x27;)</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>skipkeys</td>
-                                        <td class="code">
-                                            <pre>False</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>sort_keys</td>
-                                        <td class="code">
-                                            <pre>False</pre>
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-                        </details>
-
-                    </li>
-
-
-                    <li class="frame user">
-
-                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py</code>,
-                        line 200, in encode
-
-
-
-                        <div class="context" id="c1982945395904">
-
-                            <ol start="193" class="pre-context" id="pre1982945395904">
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>            if self.ensure_ascii:</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>                return encode_basestring_ascii(o)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>            else:</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>                return encode_basestring(o)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>        # This doesn&#x27;t pass the iterator directly to &#x27;&#x27;.join() because the</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>        # exceptions aren&#x27;t as detailed.  The list call should be roughly</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>        # equivalent to the PySequence_Fast that &#x27;&#x27;.join() would do.</pre>
-                                </li>
-
-                            </ol>
-
-                            <ol start="200" class="context-line">
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>        chunks = self.iterencode(o, _one_shot=True)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
-                                </li>
-                            </ol>
-
-                            <ol start='201' class="post-context" id="post1982945395904">
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>        if not isinstance(chunks, (list, tuple)):</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>            chunks = list(chunks)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>        return &#x27;&#x27;.join(chunks)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>    def iterencode(self, o, _one_shot=False):</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945395904', 'post1982945395904')">
-                                    <pre>        &quot;&quot;&quot;Encode the given object and yield each string</pre>
-                                </li>
-
-                            </ol>
-
-                        </div>
-
-
-
-
-                        <details>
-                            <summary class="commands">Local vars</summary>
-
-                            <table class="vars" id="v1982945395904">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Variable</th>
-                                        <th scope="col">Value</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-
-                                    <tr>
-                                        <td>o</td>
-                                        <td class="code">
-                                            <pre>{&#x27;users&#x27;: &lt;QuerySet [&lt;User: Nzamwitakuze Fabrice&gt;, &lt;User: Mugisha Abdul&gt;, &lt;User: Niyigena philbert&gt;, &lt;User: Niyigena Ernest&gt;, &lt;User: Niyigena patrick&gt;, &lt;User: Niyigena muta&gt;, &lt;User: Niyigena yo&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena new&gt;]&gt;}</pre>
+                                            <pre>&lt;WSGIRequest: POST &#x27;/api/register/&#x27;&gt;</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>self</td>
                                         <td class="code">
-                                            <pre>&lt;rest_framework.utils.encoders.JSONEncoder object at 0x000001CDB0C125F0&gt;</pre>
+                                            <pre>&lt;core.views.WrappedAPIView object at 0x000002BBF489C2F0&gt;</pre>
                                         </td>
                                     </tr>
 
@@ -1506,76 +946,76 @@
 
                     <li class="frame user">
 
-                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py</code>,
-                        line 261, in iterencode
+                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py</code>,
+                        line 509, in dispatch
 
 
 
-                        <div class="context" id="c1982927127360">
+                        <div class="context" id="c3006289324544">
 
-                            <ol start="254" class="pre-context" id="pre1982927127360">
+                            <ol start="502" class="pre-context" id="pre3006289324544">
 
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>                self.key_separator, self.item_separator, self.sort_keys,</pre>
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre>                                  self.http_method_not_allowed)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>                self.skipkeys, self.allow_nan)</pre>
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre>            else:</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>        else:</pre>
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre>                handler = self.http_method_not_allowed</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>            _iterencode = _make_iterencode(</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>                markers, self.default, _encoder, indent, floatstr,</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>                self.key_separator, self.item_separator, self.sort_keys,</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>                self.skipkeys, _one_shot)</pre>
-                                </li>
-
-                            </ol>
-
-                            <ol start="261" class="context-line">
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>        return _iterencode(o, 0)
-                    ^^^^^^^^^^^^^^^^^</pre> <span>…</span>
-                                </li>
-                            </ol>
-
-                            <ol start='262' class="post-context" id="post1982927127360">
-
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>def _make_iterencode(markers, _default, _encoder, _indent, _floatstr,</pre>
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre>            response = handler(request, *args, **kwargs)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>        _key_separator, _item_separator, _sort_keys, _skipkeys, _one_shot,</pre>
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>        ## HACK: hand-optimized bytecode; turn globals into locals</pre>
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre>        except Exception as exc:</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>        ValueError=ValueError,</pre>
+                            </ol>
+
+                            <ol start="509" class="context-line">
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre>            response = self.handle_exception(exc)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
+                                </li>
+                            </ol>
+
+                            <ol start='510' class="post-context" id="post3006289324544">
+
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982927127360', 'post1982927127360')">
-                                    <pre>        dict=dict,</pre>
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre>        self.response = self.finalize_response(request, response, *args, **kwargs)</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre>        return self.response</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre>    def options(self, request, *args, **kwargs):</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289324544', 'post3006289324544')">
+                                    <pre>        &quot;&quot;&quot;</pre>
                                 </li>
 
                             </ol>
@@ -1588,7 +1028,7 @@
                         <details>
                             <summary class="commands">Local vars</summary>
 
-                            <table class="vars" id="v1982927127360">
+                            <table class="vars" id="v3006289324544">
                                 <thead>
                                     <tr>
                                         <th scope="col">Variable</th>
@@ -1598,70 +1038,175 @@
                                 <tbody>
 
                                     <tr>
-                                        <td>_encoder</td>
+                                        <td>args</td>
                                         <td class="code">
-                                            <pre>&lt;built-in function encode_basestring&gt;</pre>
+                                            <pre>()</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                        <td>_iterencode</td>
+                                        <td>handler</td>
                                         <td class="code">
-                                            <pre>&lt;_json.Encoder object at 0x000001CDAFC02740&gt;</pre>
+                                            <pre>&lt;bound method api_view.&lt;locals&gt;.decorator.&lt;locals&gt;.handler of &lt;core.views.WrappedAPIView object at 0x000002BBF489C2F0&gt;&gt;</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                        <td>_one_shot</td>
+                                        <td>kwargs</td>
                                         <td class="code">
-                                            <pre>True</pre>
+                                            <pre>{}</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                        <td>floatstr</td>
+                                        <td>request</td>
                                         <td class="code">
-                                            <pre>&lt;function JSONEncoder.iterencode.&lt;locals&gt;.floatstr at 0x000001CDAFB9D4E0&gt;</pre>
+                                            <pre>&lt;rest_framework.request.Request: POST &#x27;/api/register/&#x27;&gt;</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                        <td>indent</td>
+                                        <td>self</td>
+                                        <td class="code">
+                                            <pre>&lt;core.views.WrappedAPIView object at 0x000002BBF489C2F0&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </details>
+
+                    </li>
+
+
+                    <li class="frame user">
+
+                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py</code>,
+                        line 469, in handle_exception
+
+
+
+                        <div class="context" id="c3006289175744">
+
+                            <ol start="462" class="pre-context" id="pre3006289175744">
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre>        exception_handler = self.get_exception_handler()</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre>        context = self.get_exception_handler_context()</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre>        response = exception_handler(exc, context)</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre>        if response is None:</pre>
+                                </li>
+
+                            </ol>
+
+                            <ol start="469" class="context-line">
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre>            self.raise_uncaught_exception(exc)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
+                                </li>
+                            </ol>
+
+                            <ol start='470' class="post-context" id="post3006289175744">
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre>        response.exception = True</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre>        return response</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre>    def raise_uncaught_exception(self, exc):</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006289175744', 'post3006289175744')">
+                                    <pre>        if settings.DEBUG:</pre>
+                                </li>
+
+                            </ol>
+
+                        </div>
+
+
+
+
+                        <details>
+                            <summary class="commands">Local vars</summary>
+
+                            <table class="vars" id="v3006289175744">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Variable</th>
+                                        <th scope="col">Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <td>context</td>
+                                        <td class="code">
+                                            <pre>{&#x27;args&#x27;: (),
+ &#x27;kwargs&#x27;: {},
+ &#x27;request&#x27;: &lt;rest_framework.request.Request: POST &#x27;/api/register/&#x27;&gt;,
+ &#x27;view&#x27;: &lt;core.views.WrappedAPIView object at 0x000002BBF489C2F0&gt;}</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>exc</td>
+                                        <td class="code">
+                                            <pre>AttributeError(&quot;&#x27;Profile&#x27; object has no attribute &#x27;id&#x27;&quot;)</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>exception_handler</td>
+                                        <td class="code">
+                                            <pre>&lt;function exception_handler at 0x000002BBF4786840&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>response</td>
                                         <td class="code">
                                             <pre>None</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
-                                        <td>markers</td>
-                                        <td class="code">
-                                            <pre>{1982927624080: &lt;QuerySet [&lt;User: Nzamwitakuze Fabrice&gt;, &lt;User: Mugisha Abdul&gt;, &lt;User: Niyigena philbert&gt;, &lt;User: Niyigena Ernest&gt;, &lt;User: Niyigena patrick&gt;, &lt;User: Niyigena muta&gt;, &lt;User: Niyigena yo&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena new&gt;]&gt;,
- 1982928449856: (&lt;User: Nzamwitakuze Fabrice&gt;,
-                 &lt;User: Mugisha Abdul&gt;,
-                 &lt;User: Niyigena philbert&gt;,
-                 &lt;User: Niyigena Ernest&gt;,
-                 &lt;User: Niyigena patrick&gt;,
-                 &lt;User: Niyigena muta&gt;,
-                 &lt;User: Niyigena yo&gt;,
-                 &lt;User: Niyigena pe&gt;,
-                 &lt;User: Niyigena pe&gt;,
-                 &lt;User: Niyigena new&gt;),
- 1982928496064: {&#x27;users&#x27;: &lt;QuerySet [&lt;User: Nzamwitakuze Fabrice&gt;, &lt;User: Mugisha Abdul&gt;, &lt;User: Niyigena philbert&gt;, &lt;User: Niyigena Ernest&gt;, &lt;User: Niyigena patrick&gt;, &lt;User: Niyigena muta&gt;, &lt;User: Niyigena yo&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena new&gt;]&gt;},
- 1982928705856: &lt;User: Nzamwitakuze Fabrice&gt;}</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>o</td>
-                                        <td class="code">
-                                            <pre>{&#x27;users&#x27;: &lt;QuerySet [&lt;User: Nzamwitakuze Fabrice&gt;, &lt;User: Mugisha Abdul&gt;, &lt;User: Niyigena philbert&gt;, &lt;User: Niyigena Ernest&gt;, &lt;User: Niyigena patrick&gt;, &lt;User: Niyigena muta&gt;, &lt;User: Niyigena yo&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena pe&gt;, &lt;User: Niyigena new&gt;]&gt;}</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
                                         <td>self</td>
                                         <td class="code">
-                                            <pre>&lt;rest_framework.utils.encoders.JSONEncoder object at 0x000001CDB0C125F0&gt;</pre>
+                                            <pre>&lt;core.views.WrappedAPIView object at 0x000002BBF489C2F0&gt;</pre>
                                         </td>
                                     </tr>
 
@@ -1674,197 +1219,211 @@
 
                     <li class="frame user">
 
-                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\utils\encoders.py</code>,
-                        line 67, in default
+                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py</code>,
+                        line 480, in raise_uncaught_exception
 
 
 
-                        <div class="context" id="c1982928321536">
+                        <div class="context" id="c3006289182272">
 
-                            <ol start="60" class="pre-context" id="pre1982928321536">
+                            <ol start="473" class="pre-context" id="pre3006289182272">
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>            )</pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>        elif hasattr(obj, &#x27;__getitem__&#x27;):</pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>    def raise_uncaught_exception(self, exc):</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>            cls = (list if isinstance(obj, (list, tuple)) else dict)</pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>        if settings.DEBUG:</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>            with contextlib.suppress(Exception):</pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>            request = self.request</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>                return cls(obj)</pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>            renderer_format = getattr(request.accepted_renderer, &#x27;format&#x27;)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>        elif hasattr(obj, &#x27;__iter__&#x27;):</pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>            use_plaintext_traceback = renderer_format not in (&#x27;html&#x27;, &#x27;api&#x27;, &#x27;admin&#x27;)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>            return tuple(item for item in obj)</pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>            request.force_plaintext_errors(use_plaintext_traceback)</pre>
                                 </li>
 
                             </ol>
 
-                            <ol start="67" class="context-line">
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>        return super().default(obj)
-                   ^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
+                            <ol start="480" class="context-line">
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>        raise exc
+             ^^^^^^^^^</pre> <span>…</span>
                                 </li>
                             </ol>
 
-                            <ol start='68' class="post-context" id="post1982928321536">
+                            <ol start='481' class="post-context" id="post3006289182272">
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre></pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>    # Note: Views are made CSRF exempt from within `as_view` as to prevent</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>class CustomScalar:</pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>    # accidental removal of this exemption in cases where `dispatch` needs to</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>    &quot;&quot;&quot;</pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>    # be overridden.</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>    CustomScalar that knows how to encode timedelta that renderer</pre>
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
+                                    <pre>    def dispatch(self, request, *args, **kwargs):</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982928321536', 'post1982928321536')">
-                                    <pre>    can understand.</pre>
-                                </li>
-
-                            </ol>
-
-                        </div>
-
-
-
-
-                        <details>
-                            <summary class="commands">Local vars</summary>
-
-                            <table class="vars" id="v1982928321536">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Variable</th>
-                                        <th scope="col">Value</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-
-                                    <tr>
-                                        <td>__class__</td>
-                                        <td class="code">
-                                            <pre>&lt;class &#x27;rest_framework.utils.encoders.JSONEncoder&#x27;&gt;</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>obj</td>
-                                        <td class="code">
-                                            <pre>&lt;User: Nzamwitakuze Fabrice&gt;</pre>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>self</td>
-                                        <td class="code">
-                                            <pre>&lt;rest_framework.utils.encoders.JSONEncoder object at 0x000001CDB0C125F0&gt;</pre>
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-                            </table>
-                        </details>
-
-                    </li>
-
-
-                    <li class="frame user">
-
-                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py</code>,
-                        line 180, in default
-
-
-
-                        <div class="context" id="c1982945631552">
-
-                            <ol start="173" class="pre-context" id="pre1982945631552">
-
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre>                    pass</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre>                else:</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre>                    return list(iterable)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre>                # Let the base class default method raise the TypeError</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre>                return super().default(o)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre></pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
+                                <li onclick="toggle('pre3006289182272', 'post3006289182272')">
                                     <pre>        &quot;&quot;&quot;</pre>
                                 </li>
 
                             </ol>
 
-                            <ol start="180" class="context-line">
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre>        raise TypeError(f&#x27;Object of type {o.__class__.__name__} &#x27;
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
+                        </div>
+
+
+
+
+                        <details>
+                            <summary class="commands">Local vars</summary>
+
+                            <table class="vars" id="v3006289182272">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Variable</th>
+                                        <th scope="col">Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <td>exc</td>
+                                        <td class="code">
+                                            <pre>AttributeError(&quot;&#x27;Profile&#x27; object has no attribute &#x27;id&#x27;&quot;)</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>renderer_format</td>
+                                        <td class="code">
+                                            <pre>&#x27;json&#x27;</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>request</td>
+                                        <td class="code">
+                                            <pre>&lt;rest_framework.request.Request: POST &#x27;/api/register/&#x27;&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>self</td>
+                                        <td class="code">
+                                            <pre>&lt;core.views.WrappedAPIView object at 0x000002BBF489C2F0&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>use_plaintext_traceback</td>
+                                        <td class="code">
+                                            <pre>True</pre>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </details>
+
+                    </li>
+
+
+                    <li class="frame user">
+
+                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py</code>,
+                        line 506, in dispatch
+
+
+
+                        <div class="context" id="c3006288899776">
+
+                            <ol start="499" class="pre-context" id="pre3006288899776">
+
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>            # Get the appropriate handler method</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>            if request.method.lower() in self.http_method_names:</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>                handler = getattr(self, request.method.lower(),</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>                                  self.http_method_not_allowed)</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>            else:</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>                handler = self.http_method_not_allowed</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre></pre>
+                                </li>
+
+                            </ol>
+
+                            <ol start="506" class="context-line">
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>            response = handler(request, *args, **kwargs)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
                                 </li>
                             </ol>
 
-                            <ol start='181' class="post-context" id="post1982945631552">
+                            <ol start='507' class="post-context" id="post3006288899776">
 
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre>                        f&#x27;is not JSON serializable&#x27;)</pre>
-                                </li>
-
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre>    def encode(self, o):</pre>
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>        except Exception as exc:</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre>        &quot;&quot;&quot;Return a JSON string representation of a Python data structure.</pre>
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>            response = self.handle_exception(exc)</pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
                                     <pre></pre>
                                 </li>
 
-                                <li onclick="toggle('pre1982945631552', 'post1982945631552')">
-                                    <pre>        &gt;&gt;&gt; from json.encoder import JSONEncoder</pre>
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>        self.response = self.finalize_response(request, response, *args, **kwargs)</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006288899776', 'post3006288899776')">
+                                    <pre>        return self.response</pre>
                                 </li>
 
                             </ol>
@@ -1877,7 +1436,7 @@
                         <details>
                             <summary class="commands">Local vars</summary>
 
-                            <table class="vars" id="v1982945631552">
+                            <table class="vars" id="v3006288899776">
                                 <thead>
                                     <tr>
                                         <th scope="col">Variable</th>
@@ -1887,16 +1446,298 @@
                                 <tbody>
 
                                     <tr>
-                                        <td>o</td>
+                                        <td>args</td>
                                         <td class="code">
-                                            <pre>&lt;User: Nzamwitakuze Fabrice&gt;</pre>
+                                            <pre>()</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>handler</td>
+                                        <td class="code">
+                                            <pre>&lt;bound method api_view.&lt;locals&gt;.decorator.&lt;locals&gt;.handler of &lt;core.views.WrappedAPIView object at 0x000002BBF489C2F0&gt;&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>kwargs</td>
+                                        <td class="code">
+                                            <pre>{}</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>request</td>
+                                        <td class="code">
+                                            <pre>&lt;rest_framework.request.Request: POST &#x27;/api/register/&#x27;&gt;</pre>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>self</td>
                                         <td class="code">
-                                            <pre>&lt;rest_framework.utils.encoders.JSONEncoder object at 0x000001CDB0C125F0&gt;</pre>
+                                            <pre>&lt;core.views.WrappedAPIView object at 0x000002BBF489C2F0&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </details>
+
+                    </li>
+
+
+                    <li class="frame user">
+
+                        <code class="fname">C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\decorators.py</code>,
+                        line 50, in handler
+
+
+
+                        <div class="context" id="c3006276077568">
+
+                            <ol start="43" class="pre-context" id="pre3006276077568">
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre>        assert isinstance(http_method_names, (list, tuple)), \</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre>            &#x27;@api_view expected a list of strings, received %s&#x27; % type(http_method_names).__name__</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre>        allowed_methods = set(http_method_names) | {&#x27;options&#x27;}</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre>        WrappedAPIView.http_method_names = [method.lower() for method in allowed_methods]</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre>        def handler(self, *args, **kwargs):</pre>
+                                </li>
+
+                            </ol>
+
+                            <ol start="50" class="context-line">
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre>            return func(*args, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^</pre> <span>…</span>
+                                </li>
+                            </ol>
+
+                            <ol start='51' class="post-context" id="post3006276077568">
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre>        for method in http_method_names:</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre>            setattr(WrappedAPIView, method.lower(), handler)</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre>        WrappedAPIView.__name__ = func.__name__</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006276077568', 'post3006276077568')">
+                                    <pre>        WrappedAPIView.__module__ = func.__module__</pre>
+                                </li>
+
+                            </ol>
+
+                        </div>
+
+
+
+
+                        <details>
+                            <summary class="commands">Local vars</summary>
+
+                            <table class="vars" id="v3006276077568">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Variable</th>
+                                        <th scope="col">Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <td>args</td>
+                                        <td class="code">
+                                            <pre>(&lt;rest_framework.request.Request: POST &#x27;/api/register/&#x27;&gt;,)</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>func</td>
+                                        <td class="code">
+                                            <pre>&lt;function register_user_view at 0x000002BBF47B0680&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>kwargs</td>
+                                        <td class="code">
+                                            <pre>{}</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>self</td>
+                                        <td class="code">
+                                            <pre>&lt;core.views.WrappedAPIView object at 0x000002BBF489C2F0&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </details>
+
+                    </li>
+
+
+                    <li class="frame user">
+
+                        <code class="fname">E:\kabano\version2\ElectricDefaultDetectionBackend\core\views.py</code>,
+                        line 43, in register_user_view
+
+
+
+                        <div class="context" id="c3006284764096">
+
+                            <ol start="36" class="pre-context" id="pre3006284764096">
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>                    status=status.HTTP_400_BAD_REQUEST</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>                )</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>            return Response(</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>                {</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>                    &quot;message&quot;: &quot;User registered successfully&quot;,</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>                    &quot;user_id&quot;: user.id,</pre>
+                                </li>
+
+                            </ol>
+
+                            <ol start="43" class="context-line">
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>                    &quot;profile_id&quot;: profile.id  # Safely access the profile&#x27;s id
+                                      ^^^^^^^^^^</pre> <span>…</span>
+                                </li>
+                            </ol>
+
+                            <ol start='44' class="post-context" id="post3006284764096">
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>                },</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>                status=status.HTTP_201_CREATED</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>            )</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre></pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>        except ValidationError as e:</pre>
+                                </li>
+
+                                <li onclick="toggle('pre3006284764096', 'post3006284764096')">
+                                    <pre>            return Response(</pre>
+                                </li>
+
+                            </ol>
+
+                        </div>
+
+
+
+
+                        <details>
+                            <summary class="commands">Local vars</summary>
+
+                            <table class="vars" id="v3006284764096">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Variable</th>
+                                        <th scope="col">Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <td>profile</td>
+                                        <td class="code">
+                                            <pre>&lt;Profile: test13 Profile&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>request</td>
+                                        <td class="code">
+                                            <pre>&lt;rest_framework.request.Request: POST &#x27;/api/register/&#x27;&gt;</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>serializer</td>
+                                        <td class="code">
+                                            <pre>UserRegisterSerializer(data={&#x27;name&#x27;: &#x27;test13&#x27;, &#x27;email&#x27;: &#x27;test13@gmail.com&#x27;, &#x27;phone_number&#x27;: &#x27;123456789&#x27;, &#x27;password&#x27;: &#x27;strongpassword123&#x27;, &#x27;role&#x27;: &#x27;Admin&#x27;}):
+    email = EmailField()
+    password = CharField(write_only=True)
+    name = CharField(max_length=255)
+    phone_number = CharField(max_length=20)
+    role = ChoiceField(choices=[(&#x27;Admin&#x27;, &#x27;Admin&#x27;), (&#x27;Technician&#x27;, &#x27;Technician&#x27;), (&#x27;Client&#x27;, &#x27;Client&#x27;)])</pre>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>user</td>
+                                        <td class="code">
+                                            <pre>&lt;User: test13&gt;</pre>
                                         </td>
                                     </tr>
 
@@ -1913,15 +1754,15 @@
                 <div id="pastebinTraceback" class="pastebin">
                     <input type="hidden" name="language" value="PythonConsole">
                     <input type="hidden" name="title"
-      value="TypeError at /api/users/">
+      value="AttributeError at /api/register/">
                     <input type="hidden" name="source" value="Django Dpaste Agent">
                     <input type="hidden" name="poster" value="Django">
                     <textarea name="content" id="traceback_area" cols="140" rows="25">
 Environment:
 
 
-Request Method: GET
-Request URL: http://127.0.0.1:8000/api/users/
+Request Method: POST
+Request URL: http://127.0.0.1:8000/api/register/
 
 Django Version: 5.1.7
 Python Version: 3.13.2
@@ -1934,7 +1775,8 @@ Installed Applications:
  &#x27;django.contrib.staticfiles&#x27;,
  &#x27;rest_framework&#x27;,
  &#x27;rest_framework_simplejwt&#x27;,
- &#x27;core&#x27;]
+ &#x27;core.apps.CoreConfig&#x27;,
+ &#x27;django.contrib.sites&#x27;]
 Installed Middleware:
 [&#x27;django.middleware.security.SecurityMiddleware&#x27;,
  &#x27;django.contrib.sessions.middleware.SessionMiddleware&#x27;,
@@ -1950,39 +1792,36 @@ Traceback (most recent call last):
   File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
                ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
-    response = response.render()
-               ^^^^^^^^^^^^^^^^^
-  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\response.py", line 114, in render
-    self.content = self.rendered_content
-                   ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
-    ret = renderer.render(self.data, accepted_media_type, context)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\renderers.py", line 100, in render
-    ret = json.dumps(
-          
-  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
-    return json.dumps(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 238, in dumps
-    **kw).encode(obj)
-          ^^^^^^^^^^^
-  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 200, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 261, in iterencode
-    return _iterencode(o, 0)
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
-    return super().default(obj)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py", line 180, in default
-    raise TypeError(f&#x27;Object of type {o.__class__.__name__} &#x27;
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+    ^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\kabano\version2\ElectricDefaultDetectionBackend\core\views.py", line 43, in register_user_view
+    &quot;profile_id&quot;: profile.id  # Safely access the profile&#x27;s id
+                  ^^^^^^^^^^
 
-Exception Type: TypeError at /api/users/
-Exception Value: Object of type User is not JSON serializable
+Exception Type: AttributeError at /api/register/
+Exception Value: &#x27;Profile&#x27; object has no attribute &#x27;id&#x27;
 </textarea>
                     <br><br>
                     <input type="submit" value="Share this traceback on a public website">
@@ -1998,7 +1837,7 @@ Exception Value: Object of type User is not JSON serializable
 
 
             <h3 id="user-info">USER</h3>
-            <p>Mugisha Abdul</p>
+            <p>AnonymousUser</p>
 
 
             <h3 id="get-info">GET</h3>
@@ -2076,7 +1915,7 @@ Exception Value: Object of type User is not JSON serializable
                     <tr>
                         <td>CHROME_CRASHPAD_PIPE_NAME</td>
                         <td class="code">
-                            <pre>&#x27;\\\\.\\pipe\\crashpad_17908_YUTLUSNSNZUMNOGN&#x27;</pre>
+                            <pre>&#x27;\\\\.\\pipe\\crashpad_18604_TVUEZIGNJITJPQQC&#x27;</pre>
                         </td>
                     </tr>
 
@@ -2125,14 +1964,14 @@ Exception Value: Object of type User is not JSON serializable
                     <tr>
                         <td>CONTENT_LENGTH</td>
                         <td class="code">
-                            <pre>&#x27;&#x27;</pre>
+                            <pre>&#x27;154&#x27;</pre>
                         </td>
                     </tr>
 
                     <tr>
                         <td>CONTENT_TYPE</td>
                         <td class="code">
-                            <pre>&#x27;text/plain&#x27;</pre>
+                            <pre>&#x27;application/json&#x27;</pre>
                         </td>
                     </tr>
 
@@ -2151,9 +1990,23 @@ Exception Value: Object of type User is not JSON serializable
                     </tr>
 
                     <tr>
-                        <td>EFC_9480</td>
+                        <td>EFC_16648</td>
                         <td class="code">
                             <pre>&#x27;1&#x27;</pre>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>FPS_BROWSER_APP_PROFILE_STRING</td>
+                        <td class="code">
+                            <pre>&#x27;Internet Explorer&#x27;</pre>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>FPS_BROWSER_USER_PROFILE_STRING</td>
+                        <td class="code">
+                            <pre>&#x27;Default&#x27;</pre>
                         </td>
                     </tr>
 
@@ -2200,14 +2053,6 @@ Exception Value: Object of type User is not JSON serializable
                     </tr>
 
                     <tr>
-                        <td>HTTP_AUTHORIZATION</td>
-                        <td class="code">
-                            <pre>(&#x27;Bearer &#x27;
- &#x27;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzMTAzMDY5LCJpYXQiOjE3NDMxMDEyNjksImp0aSI6IjY5ZGU5MDdkM2IyOTQ0MGFhMDI5NWMwMzEwOWZjNmZmIiwidXNlcl9pZCI6Mn0.OWuAznGKatBQaXcJ5sWTHpq0hnPJifhTTRn3TBI6PBo&#x27;)</pre>
-                        </td>
-                    </tr>
-
-                    <tr>
                         <td>HTTP_CACHE_CONTROL</td>
                         <td class="code">
                             <pre>&#x27;no-cache&#x27;</pre>
@@ -2238,7 +2083,7 @@ Exception Value: Object of type User is not JSON serializable
                     <tr>
                         <td>HTTP_USER_AGENT</td>
                         <td class="code">
-                            <pre>&#x27;PostmanRuntime/7.43.0&#x27;</pre>
+                            <pre>&#x27;PostmanRuntime/7.43.2&#x27;</pre>
                         </td>
                     </tr>
 
@@ -2346,7 +2191,7 @@ Exception Value: Object of type User is not JSON serializable
                     <tr>
                         <td>PATH_INFO</td>
                         <td class="code">
-                            <pre>&#x27;/api/users/&#x27;</pre>
+                            <pre>&#x27;/api/register/&#x27;</pre>
                         </td>
                     </tr>
 
@@ -2467,7 +2312,7 @@ Exception Value: Object of type User is not JSON serializable
                     <tr>
                         <td>REQUEST_METHOD</td>
                         <td class="code">
-                            <pre>&#x27;GET&#x27;</pre>
+                            <pre>&#x27;POST&#x27;</pre>
                         </td>
                     </tr>
 
@@ -2684,7 +2529,7 @@ Exception Value: Object of type User is not JSON serializable
                     <tr>
                         <td>wsgi.input</td>
                         <td class="code">
-                            <pre>&lt;django.core.handlers.wsgi.LimitedStream object at 0x000001CDAFC23E20&gt;</pre>
+                            <pre>&lt;django.core.handlers.wsgi.LimitedStream object at 0x000002BBF48CC8E0&gt;</pre>
                         </td>
                     </tr>
 
@@ -2783,7 +2628,7 @@ Exception Value: Object of type User is not JSON serializable
                     <tr>
                         <td>AUTH_USER_MODEL</td>
                         <td class="code">
-                            <pre>&#x27;auth.User&#x27;</pre>
+                            <pre>&#x27;core.User&#x27;</pre>
                         </td>
                     </tr>
 
@@ -3253,7 +3098,8 @@ Exception Value: Object of type User is not JSON serializable
  &#x27;django.contrib.staticfiles&#x27;,
  &#x27;rest_framework&#x27;,
  &#x27;rest_framework_simplejwt&#x27;,
- &#x27;core&#x27;]</pre>
+ &#x27;core.apps.CoreConfig&#x27;,
+ &#x27;django.contrib.sites&#x27;]</pre>
                         </td>
                     </tr>
 
@@ -3442,7 +3288,25 @@ Exception Value: Object of type User is not JSON serializable
                     <tr>
                         <td>LOGGING</td>
                         <td class="code">
-                            <pre>{}</pre>
+                            <pre>{&#x27;disable_existing_loggers&#x27;: False,
+ &#x27;formatters&#x27;: {&#x27;simple&#x27;: {&#x27;format&#x27;: &#x27;[{levelname}] {message}&#x27;, &#x27;style&#x27;: &#x27;{&#x27;},
+                &#x27;verbose&#x27;: {&#x27;format&#x27;: &#x27;[{levelname}] {asctime} {module}: &#x27;
+                                      &#x27;{message}&#x27;,
+                            &#x27;style&#x27;: &#x27;{&#x27;}},
+ &#x27;handlers&#x27;: {&#x27;console&#x27;: {&#x27;class&#x27;: &#x27;logging.StreamHandler&#x27;,
+                          &#x27;formatter&#x27;: &#x27;simple&#x27;,
+                          &#x27;level&#x27;: &#x27;INFO&#x27;},
+              &#x27;file&#x27;: {&#x27;class&#x27;: &#x27;logging.FileHandler&#x27;,
+                       &#x27;filename&#x27;: &#x27;E:\\kabano\\version2\\ElectricDefaultDetectionBackend\\logs/debug.log&#x27;,
+                       &#x27;formatter&#x27;: &#x27;verbose&#x27;,
+                       &#x27;level&#x27;: &#x27;DEBUG&#x27;}},
+ &#x27;loggers&#x27;: {&#x27;custom_logger&#x27;: {&#x27;handlers&#x27;: [&#x27;file&#x27;, &#x27;console&#x27;],
+                               &#x27;level&#x27;: &#x27;DEBUG&#x27;,
+                               &#x27;propagate&#x27;: False},
+             &#x27;django&#x27;: {&#x27;handlers&#x27;: [&#x27;file&#x27;, &#x27;console&#x27;],
+                        &#x27;level&#x27;: &#x27;DEBUG&#x27;,
+                        &#x27;propagate&#x27;: True}},
+ &#x27;version&#x27;: 1}</pre>
                         </td>
                     </tr>
 
@@ -3475,6 +3339,13 @@ Exception Value: Object of type User is not JSON serializable
                     </tr>
 
                     <tr>
+                        <td>LOG_DIR</td>
+                        <td class="code">
+                            <pre>&#x27;E:\\kabano\\version2\\ElectricDefaultDetectionBackend\\logs&#x27;</pre>
+                        </td>
+                    </tr>
+
+                    <tr>
                         <td>MANAGERS</td>
                         <td class="code">
                             <pre>[]</pre>
@@ -3484,14 +3355,14 @@ Exception Value: Object of type User is not JSON serializable
                     <tr>
                         <td>MEDIA_ROOT</td>
                         <td class="code">
-                            <pre>&#x27;&#x27;</pre>
+                            <pre>&#x27;E:\\kabano\\version2\\ElectricDefaultDetectionBackend\\media&#x27;</pre>
                         </td>
                     </tr>
 
                     <tr>
                         <td>MEDIA_URL</td>
                         <td class="code">
-                            <pre>&#x27;/&#x27;</pre>
+                            <pre>&#x27;/media/&#x27;</pre>
                         </td>
                     </tr>
 

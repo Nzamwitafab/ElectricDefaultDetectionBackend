@@ -1,0 +1,17 @@
+[DEBUG] 2025-03-30 13:57:00: Attempting to create user: test11@gmail.com
+[DEBUG] 2025-03-30 13:57:01: Creating profile for user: 53
+[CRITICAL] 2025-03-30 13:57:01: Unexpected registration error: {'user': ['Profile with this User already exists.']}
+[DEBUG] 2025-03-30 13:57:47: Attempting to create user: test11@gmail.com
+[DEBUG] 2025-03-30 13:57:47: Creating profile for user: 54
+[CRITICAL] 2025-03-30 13:57:47: Unexpected registration error: {'user': ['Profile with this User already exists.']}
+[DEBUG] 2025-03-30 13:59:16: Registering user: test11@gmail.com
+[DEBUG] 2025-03-30 13:59:16: Attempting to create user: test11@gmail.com
+[DEBUG] 2025-03-30 13:59:16: Creating profile for user: 55
+[CRITICAL] 2025-03-30 13:59:16: Unexpected registration error: {'user': ['Profile with this User already exists.']}
+[CRITICAL] 2025-03-30 13:59:16: Unexpected error: [ErrorDetail(string='Registration process failed', code='invalid')]
+[DEBUG] 2025-03-30 14:05:59: Attempting to create user: test11@gmail.com
+[DEBUG] 2025-03-30 14:05:59: Creating profile for user: 56
+[CRITICAL] 2025-03-30 14:05:59: Unexpected registration error: {'user': ['Profile with this User already exists.']}
+[DEBUG] 2025-03-30 14:07:13: Attempting to create user: test11@gmail.com
+[DEBUG] 2025-03-30 14:07:13: Creating profile for user: 57
+[CRITICAL] 2025-03-30 14:07:13: Unexpected registration error: {'user': ['Profile with this User already exists.']}

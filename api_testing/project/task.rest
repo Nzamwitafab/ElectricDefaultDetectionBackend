@@ -1,0 +1,52 @@
+### Login request (POST request)
+POST http://127.0.0.1:8000/api/login/
+Content-Type: application/json
+
+{
+    "email": "test1@gmail.com",
+    "password": "strongpassword123"
+}
+
+### Create a new task (POST request)
+POST http://127.0.0.1:8000/api/tasks/create/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI4NDQwLCJpYXQiOjE3NDM0MjY2NDAsImp0aSI6IjRhYjdmMTdiNjJkZTQ4ZGZhZjE4YmE1MzQ3OTUxNDI1IiwidXNlcl9pZCI6Mzd9.FwrAgxNW7LEXBUEMGsjGBUBcog38H6bOlgX9r8abs9A
+Content-Type: application/json
+
+{
+    "title": "Replace transformer",
+    "date": "2025-03-31",
+    "time": "14:00:00",
+    "status": "Pending",
+    "technician_assigned": 74,  
+    "ai_predicted_fault": "Transformer failure",
+    "problem": 4,  
+    "grid": 1  
+}
+
+### Get all tasks (GET request)
+GET http://127.0.0.1:8000/api/tasks/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI3NzI0LCJpYXQiOjE3NDM0MjU5MjQsImp0aSI6IjJkZjA0ZjA0OTg2MjQ1YjdhZTBkNjNlYTE0Y2ZmNWQ1IiwidXNlcl9pZCI6Mzd9.ahXWuj9HKb-lR97C867U01cONDnSWq3fep5XItqxabY
+Content-Type: application/json
+
+### Get a task by task_id (GET request)
+GET http://127.0.0.1:8000/api/tasks/6/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI3NzI0LCJpYXQiOjE3NDM0MjU5MjQsImp0aSI6IjJkZjA0ZjA0OTg2MjQ1YjdhZTBkNjNlYTE0Y2ZmNWQ1IiwidXNlcl9pZCI6Mzd9.ahXWuj9HKb-lR97C867U01cONDnSWq3fep5XItqxabY
+Content-Type: application/json
+
+### Update a task (PATCH request)
+PATCH http://127.0.0.1:8000/api/tasks/6/update/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI3NzI0LCJpYXQiOjE3NDM0MjU5MjQsImp0aSI6IjJkZjA0ZjA0OTg2MjQ1YjdhZTBkNjNlYTE0Y2ZmNWQ1IiwidXNlcl9pZCI6Mzd9.ahXWuj9HKb-lR97C867U01cONDnSWq3fep5XItqxabY
+Content-Type: application/json
+
+{
+    "title": "Replace transformer (Updated)",
+    "date": "2025-04-01",
+    "time": "15:00:00",
+    "status": "Completed", 
+    "ai_predicted_fault": "Transformer failure (Updated)"
+}
+
+### Delete a task by task_id (DELETE request)
+DELETE http://127.0.0.1:8000/api/tasks/6/delete/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI3NzI0LCJpYXQiOjE3NDM0MjU5MjQsImp0aSI6IjJkZjA0ZjA0OTg2MjQ1YjdhZTBkNjNlYTE0Y2ZmNWQ1IiwidXNlcl9pZCI6Mzd9.ahXWuj9HKb-lR97C867U01cONDnSWq3fep5XItqxabY
+Content-Type: application/json

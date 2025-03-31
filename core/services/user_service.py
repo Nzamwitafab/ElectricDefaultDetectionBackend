@@ -1,26 +1,47 @@
 # core/services/user_service.py
+import logging
+from core.repositories.profile_repository import ProfileRepository
 from core.repositories.user_repository import UserRepository
 from rest_framework.exceptions import ValidationError # type: ignore
 from rest_framework_simplejwt.tokens import RefreshToken # type: ignore
 from rest_framework_simplejwt.authentication import JWTAuthentication # type: ignore
 from rest_framework_simplejwt.exceptions import InvalidToken, AuthenticationFailed # type: ignore
 from core.models import User
+logger = logging.getLogger(__name__)  # Use Django's logging
+
 def register_user(data):
+    logger.info("Starting user registration process.")
+
     # Validate required fields
     if 'email' not in data or 'password' not in data:
+        logger.warning("Validation failed: Missing required fields.")
         raise ValidationError("Email and Password are required fields.")
-    
+
     # Check if user already exists
     if UserRepository.get_user_by_email(email=data['email']):
+        logger.warning(f"User with email {data['email']} already exists.")
         raise ValidationError("A user with this email already exists.")
-    
-    # Validate password strength (optional)
+
+    # Validate password strength
     if len(data['password']) < 8:
+        logger.warning("Password does not meet security requirements.")
         raise ValidationError("Password must be at least 8 characters long.")
+
+    try:
+        # Create the user
+        user = UserRepository.create_user(data)
+        logger.info(f"User {user.email} created successfully.")
+
+        # Create a profile for the user
+        profile_data = {"role": data.get("role")}
+        ProfileRepository.create_profile(user, profile_data)
+        logger.info(f"Profile created for user {user.email}.")
+
+        return {"success": True, "message": "User registered successfully"}
     
-    # Create the user
-    user = UserRepository.create_user(data)
-    return user
+    except Exception as e:
+        logger.error(f"User registration failed: {str(e)}", exc_info=True)
+        raise ValidationError("User registration failed due to an internal error.")
 
 
 def login_user(data):

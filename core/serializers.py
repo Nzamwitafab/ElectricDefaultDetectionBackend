@@ -1,6 +1,8 @@
 # core/serializers.py
-from rest_framework import serializers
+from rest_framework import serializers # type: ignore
 from core.models import User
+from rest_framework import serializers # type: ignore
+from core.models import Profile
 
 class UserRegisterSerializer(serializers.Serializer):
     email = serializers.EmailField()
@@ -31,3 +33,14 @@ class UserUpdateSerializer(serializers.ModelSerializer):
         model = User
         # fields = ['email', 'name', 'phone_number', 'role']  # Add other fields for updating if needed
         read_only_fields = ['id']  # Prevent updating the 'id'
+
+
+class ProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Profile
+        fields = ['id', 'user_id', 'address', 'profile_picture', 'date_of_birth', 'gender', 'role']
+        extra_kwargs = {
+            'user_id': {'read_only': True},
+            'profile_picture': {'required': False},
+            'address': {'required': False},
+        }

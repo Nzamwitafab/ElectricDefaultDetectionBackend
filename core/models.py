@@ -1,15 +1,21 @@
+from django.conf import settings
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
+from django.forms import ValidationError
 
 class UserManager(BaseUserManager):
     def create_user(self, email, password=None, **extra_fields):
         if not email:
-            raise ValueError('The Email field must be set')
+            raise ValueError('Users must have an email address')
+        
         email = self.normalize_email(email)
-        user = self.model(email=email, **extra_fields)
+        user = self.model(
+            email=email,
+            **extra_fields
+        )
         user.set_password(password)
         user.save(using=self._db)
-        return user
+        return user  # Profile will be created by the signal
 
     def create_superuser(self, email, password=None, **extra_fields):
         extra_fields.setdefault('is_staff', True)
@@ -47,16 +53,58 @@ class User(AbstractBaseUser):
 
 
 class Profile(models.Model):
-    user: models.OneToOneField = models.OneToOneField(User, on_delete=models.CASCADE)
-    address: models.CharField = models.CharField(max_length=255)
-    profile_picture: models.CharField = models.CharField(max_length=255, blank=True, null=True)
-    date_of_birth: models.DateField = models.DateField()
-    gender: models.CharField = models.CharField(max_length=10)
-    role: models.CharField = models.CharField(max_length=50, choices=User.ROLE_CHOICES)
+    user: models.OneToOneField = models.OneToOneField(
+        settings.AUTH_USER_MODEL,  # Better practice than direct User reference
+        on_delete=models.CASCADE,
+        related_name='profile',
+        primary_key=True
+    )
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(
+                fields=['user'],
+                name='unique_user_profile'
+            )
+        ]
+    address: models.CharField = models.CharField(max_length=255, null=True, blank=True)
+    profile_picture = models.ImageField(
+        upload_to='profile_pictures/',
+        null=True,
+        blank=True,
+        max_length=255
+    )
+    date_of_birth:models.DateField = models.DateField(null=True, blank=True)
+    gender:models.CharField = models.CharField(max_length=10, null=True, blank=True)
+    role: models.CharField = models.CharField(max_length=50, choices=User.ROLE_CHOICES, null=True, blank=True)
 
     def __str__(self):
         return f'{self.user.name} Profile'
+    def clean(self):
+        """Additional validation before saving"""
+        if not self.user_id:
+            raise ValidationError("Profile must be associated with a user")
+        if Profile.objects.filter(user_id=self.user_id).exclude(pk=self.pk).exists():
+            raise ValidationError("A profile already exists for this user")
 
+    def save(self, *args, **kwargs):
+        self.full_clean()  # Runs clean() validation
+        super().save(*args, **kwargs)
+    
+    # def save(self, *args, **kwargs):
+    #     # Delete old file when updating
+    #     try:
+    #         old = Profile.objects.get(pk=self.pk)
+    #         if old.profile_picture != self.profile_picture:
+    #             old.profile_picture.delete(save=False)
+    #     except Profile.DoesNotExist:
+    #         pass
+    #     super().save(*args, **kwargs)
+    
+    def delete(self, *args, **kwargs):
+        # Delete file when profile is deleted
+        if self.profile_picture:
+            self.profile_picture.delete(save=False)
+        super().delete(*args, **kwargs)
 
 class Task(models.Model):
     PENDING = 'Pending'

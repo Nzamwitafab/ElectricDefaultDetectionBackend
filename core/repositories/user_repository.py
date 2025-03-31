@@ -4,13 +4,12 @@ from core.models import User
 class UserRepository:
     @staticmethod
     def create_user(data):
-        # Create a new user via the UserManager in the model
         user = User.objects.create_user(
             email=data['email'],
             password=data['password'],
-            name=data['name'],
-            phone_number=data['phone_number'],
-            role=data['role']
+            name=data.get('name'),
+            phone_number=data.get('phone_number'),
+            role=data.get('role')
         )
         return user
 

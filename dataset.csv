@@ -1,0 +1,507 @@
+Fault ID,Fault Type,Fault Location,Voltage (V),Current (A),Power Load (MW),Temperature (°C),Wind Speed (km/h),Weather Condition,Maintenance Status,Component Health,Duration of Fault (hrs),Down time (hrs)
+F001,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",2200,250,50,25,20,Clear,Scheduled,Normal,2,1
+F002,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",1800,180,45,28,15,Rainy,Completed,Faulty,3,5
+F003,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2100,230,55,35,25,Windstorm,Pending,Overheated,4,6
+F004,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2050,240,48,23,10,Clear,Completed,Normal,2.5,3
+F005,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",1900,190,50,30,18,Snowy,Scheduled,Faulty,3.5,4
+F006,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2150,220,52,32,22,Thunderstorm,Pending,Overheated,5,7
+F007,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",1994,233,51,23,21,Snowy,Completed,Normal,3.7,6.1
+F008,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",2133,229,52,20,18,Snowy,Scheduled,Normal,5.4,2.1
+F009,Line Breakage,"Kigali, Kicukiro, Kanombe, Busanza",2155,240,45,21,29,Rainy,Pending,Overheated,3.2,4.7
+F010,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",2065,199,55,25,21,Clear,Scheduled,Normal,4,2.8
+F011,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",2118,221,45,20,20,Clear,Completed,Normal,4.9,1.9
+F012,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",2106,247,47,25,13,Clear,Completed,Normal,2.4,6.9
+F013,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2012,248,52,24,29,Clear,Completed,Faulty,3.9,6.4
+F014,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2289,192,52,35,28,Rainy,Scheduled,Normal,4.1,5.8
+F015,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",1848,231,49,39,13,Rainy,Scheduled,Faulty,2.7,5
+F016,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",2102,246,53,38,18,Rainy,Completed,Faulty,3.5,1.9
+F017,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2263,229,55,21,16,Rainy,Scheduled,Normal,4.5,6
+F018,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",2092,241,52,31,16,Thunderstorm,Completed,Faulty,6,3.7
+F019,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",1943,245,50,30,15,Snowy,Completed,Faulty,5.1,3.7
+F020,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",2065,213,46,31,23,Clear,Pending,Normal,2.4,6.9
+F021,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",1864,224,49,34,23,Thunderstorm,Scheduled,Overheated,2.7,5.9
+F022,Overheating,"Kigali, Gasabo, Kimironko, Bibare",1913,182,48,31,26,Thunderstorm,Scheduled,Overheated,5.4,4.2
+F023,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2284,247,47,31,15,Clear,Pending,Normal,4.5,6.2
+F024,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",1877,249,54,33,16,Snowy,Scheduled,Faulty,3.2,6.4
+F025,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",1869,218,45,22,18,Thunderstorm,Pending,Faulty,2.8,5.4
+F026,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2010,197,47,35,15,Rainy,Completed,Normal,4.6,3.3
+F027,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",1915,215,47,32,13,Thunderstorm,Pending,Normal,2.8,1.9
+F028,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",1860,246,49,36,13,Thunderstorm,Completed,Normal,4.6,2.8
+F029,Line Breakage,"Kigali, Kicukiro, Kanombe, Busanza",1878,189,50,28,11,Windstorm,Completed,Normal,4.5,3.6
+F030,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",2206,242,49,27,26,Clear,Scheduled,Overheated,4.4,4.6
+F031,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2053,235,51,21,30,Clear,Completed,Overheated,4.9,6.4
+F032,Overheating,"Kigali, Gasabo, Kimironko, Bibare",2228,212,50,22,10,Clear,Pending,Faulty,3,4
+F033,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2199,242,53,39,28,Windstorm,Pending,Overheated,5.5,5
+F034,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2206,192,54,23,13,Rainy,Completed,Overheated,4.7,6.4
+F035,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",1820,224,55,34,24,Thunderstorm,Pending,Normal,5.8,5.9
+F036,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2264,183,48,38,15,Clear,Pending,Faulty,2.4,6.5
+F037,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",1929,225,55,31,21,Rainy,Completed,Faulty,5.1,2.9
+F038,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2206,200,48,37,27,Snowy,Pending,Faulty,5,5.7
+F039,Line Breakage,"Kigali, Kicukiro, Kanombe, Busanza",1970,225,54,37,17,Snowy,Completed,Normal,5.7,1.5
+F040,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",1895,228,48,28,25,Snowy,Completed,Faulty,5.6,5.5
+F041,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",2097,219,53,40,27,Snowy,Pending,Overheated,2.7,4.7
+F042,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",2106,231,49,24,20,Thunderstorm,Completed,Faulty,2.5,3.3
+F043,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1950,190,50,27,24,Clear,Scheduled,Overheated,2.6,7
+F044,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",1912,211,48,34,30,Rainy,Scheduled,Normal,3.2,6.8
+F045,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2084,250,54,26,23,Rainy,Pending,Overheated,3.6,4.5
+F046,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",1986,213,51,31,21,Rainy,Completed,Overheated,3.4,6.7
+F047,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2159,211,53,38,14,Clear,Pending,Overheated,3.9,2.9
+F048,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2159,250,48,34,18,Thunderstorm,Scheduled,Faulty,4.5,4
+F049,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",1811,237,53,40,11,Snowy,Completed,Overheated,2.6,5.1
+F050,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",1929,183,54,35,23,Rainy,Completed,Normal,4.6,2.9
+F051,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",2091,245,51,24,27,Thunderstorm,Completed,Normal,5.9,1.3
+F052,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",1836,188,53,33,15,Rainy,Scheduled,Overheated,5.1,6.9
+F053,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2173,195,50,22,13,Windstorm,Pending,Overheated,5.8,3.3
+F054,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2233,223,47,23,19,Snowy,Scheduled,Overheated,3.7,2.5
+F055,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",1916,224,55,40,12,Snowy,Completed,Normal,4.1,1.1
+F056,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2149,227,46,25,10,Thunderstorm,Scheduled,Normal,3.3,2.8
+F057,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2289,202,48,40,29,Windstorm,Scheduled,Overheated,2.9,3.1
+F058,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2093,202,52,25,26,Rainy,Completed,Normal,4.5,6.6
+F059,Line Breakage,"Kigali, Kicukiro, Kanombe, Busanza",1949,193,50,25,28,Thunderstorm,Scheduled,Normal,4,4.6
+F060,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2275,250,51,34,13,Thunderstorm,Scheduled,Faulty,3,1.8
+F061,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",1983,187,52,38,13,Thunderstorm,Scheduled,Overheated,4.6,6.5
+F062,Overheating,"Kigali, Gasabo, Kimironko, Bibare",2001,249,55,26,19,Snowy,Scheduled,Faulty,5.1,2.8
+F063,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1842,242,45,35,13,Snowy,Pending,Faulty,4.4,2.8
+F064,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2070,185,48,22,19,Thunderstorm,Pending,Overheated,4.2,4.8
+F065,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2294,218,51,26,21,Thunderstorm,Scheduled,Overheated,5.5,5.4
+F066,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2148,185,48,23,24,Rainy,Scheduled,Overheated,3.3,5.3
+F067,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",1807,185,51,26,13,Snowy,Scheduled,Normal,4.6,6.5
+F068,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",2223,209,50,32,11,Rainy,Scheduled,Overheated,3,5
+F069,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2261,219,48,40,18,Windstorm,Pending,Normal,3.7,3.5
+F070,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",2198,242,49,39,10,Windstorm,Scheduled,Overheated,5.1,1.8
+F071,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",1859,200,52,22,15,Thunderstorm,Completed,Normal,5.8,2.5
+F072,Overheating,"Kigali, Gasabo, Kimironko, Bibare",1945,248,49,29,28,Snowy,Scheduled,Normal,3.6,6.3
+F073,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2054,205,47,36,11,Windstorm,Completed,Normal,2.4,1.2
+F074,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2212,188,48,33,29,Snowy,Completed,Overheated,2.6,4.6
+F075,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",2298,204,48,30,11,Thunderstorm,Scheduled,Normal,3.4,6.7
+F076,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2129,187,51,32,14,Snowy,Pending,Normal,2.9,4.8
+F077,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",2246,236,46,27,29,Thunderstorm,Completed,Overheated,2.6,4.3
+F078,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",2009,246,53,20,29,Rainy,Pending,Faulty,3.5,1.9
+F079,Line Breakage,"Kigali, Kicukiro, Kanombe, Busanza",1801,187,51,38,13,Rainy,Pending,Normal,4.3,1.4
+F080,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2092,229,49,39,22,Windstorm,Pending,Normal,4.7,4.7
+F081,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2045,199,52,37,21,Rainy,Scheduled,Faulty,4.5,2
+F082,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",1988,182,51,29,14,Clear,Completed,Faulty,4.8,4.2
+F083,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2120,225,48,32,23,Windstorm,Completed,Overheated,3.8,6.7
+F084,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2004,197,53,26,17,Rainy,Pending,Normal,4.3,6.7
+F085,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2260,239,53,33,21,Snowy,Scheduled,Faulty,2.6,1.7
+F086,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2289,232,45,26,16,Snowy,Pending,Normal,4.6,6.6
+F087,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",2155,206,51,38,15,Snowy,Pending,Overheated,4.3,1.9
+F088,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",1877,232,50,34,17,Rainy,Completed,Faulty,4.4,5.6
+F089,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",2146,192,46,22,10,Clear,Scheduled,Faulty,5.4,2.9
+F090,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",1909,219,46,31,29,Snowy,Pending,Faulty,3.9,5.2
+F091,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",1881,199,47,33,13,Thunderstorm,Pending,Faulty,2.6,4.3
+F092,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",2234,211,46,24,24,Clear,Scheduled,Normal,5.5,3.8
+F093,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2152,226,52,38,28,Rainy,Completed,Normal,5.9,6.7
+F094,Overheating,"Kigali, Gasabo, Remera, Giporoso",1843,227,46,25,14,Thunderstorm,Completed,Overheated,3.6,1.9
+F095,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",1949,190,50,39,25,Clear,Pending,Overheated,3.7,2
+F096,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",2066,183,52,30,15,Clear,Pending,Normal,4.8,2.6
+F097,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",2188,238,55,22,20,Thunderstorm,Scheduled,Normal,5.5,6.6
+F098,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",1994,205,52,32,22,Clear,Pending,Overheated,3.1,3.3
+F099,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2201,234,51,30,14,Snowy,Pending,Faulty,4.2,3.9
+F100,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",2143,190,55,30,26,Clear,Scheduled,Normal,5.2,1.6
+F101,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",2092,210,46,22,10,Clear,Pending,Faulty,5.5,4.7
+F102,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",2296,238,55,30,13,Thunderstorm,Scheduled,Normal,4.8,2.2
+F103,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2167,191,45,33,17,Rainy,Scheduled,Overheated,2.3,2.9
+F104,Overheating,"Kigali, Gasabo, Remera, Giporoso",2162,243,54,25,25,Snowy,Pending,Overheated,4.4,6.2
+F105,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",1890,205,49,24,27,Thunderstorm,Scheduled,Overheated,2.5,5.6
+F106,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",1916,200,51,40,28,Snowy,Pending,Faulty,4,2.7
+F107,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",1923,247,45,40,18,Snowy,Scheduled,Normal,2.2,4
+F108,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2020,190,55,34,10,Clear,Completed,Overheated,5.1,6.5
+F109,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",1833,213,50,34,21,Windstorm,Completed,Faulty,3.2,3.9
+F110,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2100,201,45,31,23,Windstorm,Completed,Faulty,5.7,6.1
+F111,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2031,199,47,32,23,Clear,Scheduled,Faulty,3.5,6.2
+F112,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",2205,202,47,38,15,Rainy,Scheduled,Normal,3.6,1.9
+F113,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1881,218,53,28,17,Rainy,Completed,Overheated,4.9,3.6
+F114,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",1980,193,46,30,25,Thunderstorm,Completed,Normal,2.9,6.7
+F115,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",1957,200,50,40,19,Thunderstorm,Completed,Overheated,2.5,1.8
+F116,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",2152,196,50,38,25,Clear,Scheduled,Faulty,3.5,2.5
+F117,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",2262,220,55,35,18,Thunderstorm,Completed,Overheated,5.2,5.2
+F118,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",2093,209,54,39,17,Rainy,Completed,Overheated,3.9,1.1
+F119,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",1875,221,46,36,25,Windstorm,Pending,Overheated,3.1,3.7
+F120,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",1873,226,45,35,17,Rainy,Pending,Normal,3.3,5.9
+F121,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2289,220,52,30,29,Thunderstorm,Scheduled,Overheated,2.8,6.5
+F122,Overheating,"Kigali, Gasabo, Kimironko, Bibare",2176,204,53,36,19,Rainy,Completed,Faulty,4.8,6.1
+F123,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1812,183,55,40,23,Clear,Completed,Faulty,5.1,7
+F124,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2104,236,50,23,18,Windstorm,Completed,Normal,4.8,3.7
+F125,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",1808,195,45,30,27,Windstorm,Completed,Normal,3.3,5.3
+F126,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",1965,230,47,30,29,Clear,Pending,Faulty,3.3,5.5
+F127,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2167,196,52,22,12,Rainy,Scheduled,Normal,4.1,6.6
+F128,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",1982,223,46,33,20,Clear,Completed,Faulty,4.2,4.1
+F129,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",2080,191,48,34,15,Clear,Completed,Normal,3,4.9
+F130,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2157,208,52,21,11,Rainy,Scheduled,Normal,5.8,1.8
+F131,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2143,230,45,36,19,Windstorm,Scheduled,Overheated,4.9,3.5
+F132,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",1906,209,54,35,10,Snowy,Pending,Normal,4.3,3.2
+F133,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1803,216,49,37,21,Thunderstorm,Completed,Normal,5.3,5.5
+F134,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",1933,230,46,40,19,Windstorm,Scheduled,Faulty,4.4,4.9
+F135,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",1857,185,51,23,16,Rainy,Pending,Overheated,5,6
+F136,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",1955,226,52,21,30,Rainy,Pending,Faulty,2.9,1.1
+F137,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",1970,206,52,32,20,Windstorm,Completed,Overheated,5,6.5
+F138,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",2141,211,46,39,13,Clear,Scheduled,Overheated,2.2,1.1
+F139,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",1995,200,46,21,21,Rainy,Pending,Normal,5.9,5.5
+F140,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",1811,218,45,23,19,Rainy,Completed,Faulty,5.7,6.3
+F141,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",2287,183,52,25,10,Clear,Scheduled,Overheated,2.9,6.2
+F142,Overheating,"Kigali, Gasabo, Kimironko, Bibare",1811,241,46,24,16,Clear,Completed,Overheated,3.5,1.2
+F143,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2298,181,54,21,12,Snowy,Pending,Faulty,4.9,2.2
+F144,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2246,204,48,34,10,Clear,Pending,Faulty,4.2,5.2
+F145,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",1946,226,46,39,21,Windstorm,Completed,Overheated,2.7,5
+F146,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",1964,224,51,25,28,Windstorm,Completed,Faulty,5.9,5.6
+F147,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2053,249,51,31,23,Clear,Pending,Faulty,5.5,3
+F148,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",2076,201,45,30,26,Rainy,Pending,Faulty,4.2,6
+F149,Line Breakage,"Kigali, Kicukiro, Kanombe, Busanza",2300,206,51,22,23,Clear,Pending,Overheated,2.2,1.6
+F150,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",2282,201,48,30,25,Clear,Completed,Overheated,5.3,3.2
+F151,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",1912,224,51,23,17,Windstorm,Scheduled,Overheated,5.6,2.1
+F152,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",2209,193,52,24,12,Snowy,Scheduled,Faulty,3.2,2.3
+F153,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1812,182,45,29,13,Rainy,Scheduled,Overheated,2.3,2.5
+F154,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2006,181,54,29,20,Windstorm,Completed,Normal,3.2,4.7
+F155,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",2147,242,45,35,20,Snowy,Scheduled,Faulty,4.8,6.2
+F156,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",2016,224,55,35,10,Windstorm,Scheduled,Faulty,5,1.5
+F157,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",2170,192,52,32,20,Rainy,Pending,Faulty,2.1,2.9
+F158,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2010,192,45,24,28,Clear,Pending,Faulty,2.3,2.1
+F159,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2273,248,55,21,18,Thunderstorm,Scheduled,Overheated,4.1,2
+F160,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",1948,222,51,23,14,Clear,Scheduled,Faulty,3.9,1
+F161,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",2195,228,45,29,15,Rainy,Completed,Overheated,4.3,4
+F162,Overheating,"Kigali, Gasabo, Kimironko, Bibare",2266,194,46,25,14,Rainy,Pending,Overheated,4.3,3.6
+F163,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2162,247,50,40,27,Clear,Completed,Faulty,2.1,3.6
+F164,Overheating,"Kigali, Gasabo, Remera, Giporoso",1934,225,52,32,26,Rainy,Scheduled,Normal,2.1,1.5
+F165,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",2079,227,53,28,25,Clear,Pending,Normal,4.3,1.7
+F166,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",1868,230,45,31,11,Thunderstorm,Scheduled,Normal,4.1,2.6
+F167,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",1870,220,48,35,16,Rainy,Pending,Faulty,3.9,2.3
+F168,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",2077,189,47,24,26,Rainy,Scheduled,Faulty,4.1,6.9
+F169,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",2011,226,48,28,23,Clear,Completed,Normal,5.5,5.7
+F170,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",1991,230,52,39,17,Rainy,Completed,Overheated,5.8,4.1
+F171,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",1880,210,54,36,19,Windstorm,Scheduled,Faulty,4.4,3.5
+F172,Overheating,"Kigali, Gasabo, Kimironko, Bibare",1874,185,50,28,22,Snowy,Completed,Overheated,5.2,6.5
+F173,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2270,219,52,36,25,Windstorm,Pending,Overheated,4.8,6.5
+F174,Overheating,"Kigali, Gasabo, Remera, Giporoso",1870,240,50,22,25,Snowy,Pending,Overheated,4.5,1.4
+F175,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",1947,245,48,30,20,Rainy,Pending,Normal,3.4,2.8
+F176,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",1935,234,55,26,29,Rainy,Pending,Faulty,2.8,5.1
+F177,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2208,239,54,36,15,Clear,Pending,Overheated,5.5,4.8
+F178,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",1972,203,55,35,21,Rainy,Completed,Faulty,4.9,6.6
+F179,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2110,189,49,23,22,Thunderstorm,Completed,Normal,2.3,5.9
+F180,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",2081,215,53,38,23,Rainy,Completed,Normal,5.9,4.8
+F181,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",1998,220,46,24,15,Clear,Completed,Normal,2.2,1.4
+F182,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",2201,192,55,33,16,Clear,Pending,Overheated,2.2,1.7
+F183,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1923,209,48,39,29,Thunderstorm,Completed,Overheated,3.4,2.4
+F184,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",1912,201,51,26,27,Thunderstorm,Scheduled,Normal,2.4,5.4
+F185,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",1926,232,48,27,24,Thunderstorm,Scheduled,Normal,5.7,2.7
+F186,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2096,229,52,26,17,Clear,Scheduled,Faulty,4.8,3.7
+F187,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2184,228,45,37,18,Rainy,Pending,Faulty,3.7,6.3
+F188,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",2115,229,52,39,16,Snowy,Scheduled,Overheated,2.3,6
+F189,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",1906,207,50,31,22,Snowy,Scheduled,Overheated,3.2,2.4
+F190,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2151,211,55,22,24,Clear,Completed,Overheated,3.4,3.3
+F191,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2017,191,51,28,21,Rainy,Completed,Faulty,5.6,2.6
+F192,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",2130,246,54,36,16,Clear,Completed,Faulty,2.2,2.4
+F193,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2156,250,45,28,12,Thunderstorm,Completed,Faulty,2.6,1.8
+F194,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",1917,232,49,25,26,Clear,Scheduled,Normal,4.5,4.4
+F195,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2282,234,47,27,10,Rainy,Pending,Overheated,2.3,5.6
+F196,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",1863,239,53,31,15,Rainy,Pending,Normal,3,1.1
+F197,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",1810,244,53,21,22,Rainy,Scheduled,Normal,3.9,6.1
+F198,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",2093,215,52,27,24,Rainy,Pending,Normal,4.9,2
+F199,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",1993,197,45,29,24,Thunderstorm,Completed,Overheated,5,4.3
+F200,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2292,246,50,39,28,Windstorm,Completed,Overheated,5.7,2
+F201,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",1837,227,49,23,29,Windstorm,Completed,Faulty,3.2,1.1
+F202,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",2022,198,52,38,14,Snowy,Completed,Normal,2.6,6.4
+F203,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2164,239,50,26,24,Rainy,Completed,Normal,3,1.9
+F204,Overheating,"Kigali, Gasabo, Remera, Giporoso",1827,224,52,32,30,Windstorm,Scheduled,Overheated,3.2,5.9
+F205,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2244,241,46,31,20,Rainy,Completed,Overheated,2.7,7
+F206,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",1830,183,53,26,30,Thunderstorm,Completed,Normal,3.8,3
+F207,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",1945,227,45,36,28,Clear,Completed,Faulty,3.7,4.1
+F208,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2089,244,46,24,22,Snowy,Pending,Overheated,3.8,5.3
+F209,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",1900,191,54,32,18,Windstorm,Scheduled,Normal,2.2,1.1
+F210,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",2013,199,51,37,28,Snowy,Scheduled,Normal,6,2
+F211,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",1833,208,52,25,25,Clear,Scheduled,Overheated,3.8,6.4
+F212,Overheating,"Kigali, Gasabo, Kimironko, Bibare",2040,213,54,37,27,Snowy,Pending,Overheated,3.3,1.9
+F213,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2149,215,54,27,17,Clear,Completed,Faulty,3.1,6.6
+F214,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2007,186,54,29,18,Clear,Scheduled,Overheated,2.9,5.7
+F215,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",1850,249,53,31,23,Windstorm,Completed,Overheated,3.3,1.5
+F216,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2139,188,50,21,23,Windstorm,Completed,Normal,3.7,6.9
+F217,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",1920,242,52,32,28,Rainy,Completed,Faulty,5.4,2.7
+F218,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2106,221,54,32,12,Clear,Scheduled,Normal,5.2,1.1
+F219,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",2278,199,45,20,25,Rainy,Scheduled,Normal,3.2,6.1
+F220,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",1982,191,45,25,19,Snowy,Scheduled,Normal,6,1.5
+F221,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",1898,201,51,35,13,Snowy,Pending,Faulty,4.5,4.2
+F222,Overheating,"Kigali, Gasabo, Kimironko, Bibare",2110,213,47,40,26,Clear,Completed,Overheated,2.9,2.7
+F223,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2155,240,52,31,26,Snowy,Completed,Overheated,4.8,3.4
+F224,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2141,221,48,27,24,Rainy,Pending,Normal,2.1,1.4
+F225,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",1864,199,46,29,20,Snowy,Pending,Normal,4.9,3.6
+F226,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2143,250,54,29,16,Windstorm,Pending,Normal,3.5,3.3
+F227,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",2236,212,51,25,25,Windstorm,Pending,Faulty,5.1,6.2
+F228,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",2294,234,55,30,28,Rainy,Scheduled,Normal,5.8,3.5
+F229,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",1821,197,48,36,29,Windstorm,Completed,Normal,4.9,3.5
+F230,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",2209,227,50,20,13,Windstorm,Pending,Normal,2.8,3
+F231,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",1940,247,51,36,28,Thunderstorm,Pending,Normal,3.7,6.7
+F232,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",2080,217,53,34,11,Snowy,Completed,Normal,3.6,4.8
+F233,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2275,239,54,38,17,Snowy,Pending,Normal,3.8,2.8
+F234,Overheating,"Kigali, Gasabo, Remera, Giporoso",2142,212,51,28,10,Thunderstorm,Scheduled,Normal,2.9,5.9
+F235,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",2290,189,49,37,27,Windstorm,Scheduled,Overheated,5.5,5.4
+F236,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2139,186,52,38,16,Thunderstorm,Pending,Overheated,3.2,1.7
+F237,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2171,222,47,37,30,Rainy,Scheduled,Overheated,3.7,3
+F238,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",1866,213,47,29,18,Windstorm,Scheduled,Faulty,2.8,2
+F239,Line Breakage,"Kigali, Kicukiro, Kanombe, Busanza",2077,250,55,22,12,Rainy,Scheduled,Normal,5.8,1.4
+F240,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",2031,223,46,36,27,Windstorm,Pending,Normal,3.9,4.7
+F241,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",1890,229,48,37,18,Clear,Pending,Normal,6,2
+F242,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",2073,204,52,40,21,Clear,Completed,Faulty,5.2,3.6
+F243,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1885,204,54,40,25,Thunderstorm,Pending,Overheated,2.3,7
+F244,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2199,243,53,34,22,Snowy,Pending,Faulty,2.8,1.3
+F245,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",1808,227,55,30,23,Clear,Completed,Faulty,2.3,6.1
+F246,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2103,197,52,35,27,Thunderstorm,Pending,Faulty,2.5,5.9
+F247,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2220,234,49,21,13,Clear,Completed,Overheated,5.9,1.8
+F248,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",1943,223,51,22,26,Snowy,Scheduled,Faulty,3.2,2.8
+F249,Line Breakage,"Kigali, Kicukiro, Kanombe, Busanza",1894,191,47,36,29,Thunderstorm,Scheduled,Faulty,2.5,6.8
+F250,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",2095,207,54,22,17,Clear,Completed,Faulty,5.4,4.3
+F251,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",2164,250,54,37,19,Thunderstorm,Pending,Faulty,2.4,3.4
+F252,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",1847,222,49,21,14,Clear,Scheduled,Overheated,2,6.3
+F253,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2077,193,49,25,28,Thunderstorm,Scheduled,Normal,3.3,2.1
+F254,Overheating,"Kigali, Gasabo, Remera, Giporoso",2215,182,52,26,14,Rainy,Pending,Overheated,4,6.9
+F255,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",2095,204,52,37,17,Clear,Completed,Normal,4.5,3.3
+F256,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2298,232,54,29,18,Rainy,Pending,Normal,4.8,2.5
+F257,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2007,204,49,24,28,Rainy,Pending,Overheated,2.5,5
+F258,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",1927,185,46,32,14,Rainy,Completed,Normal,4.3,4.9
+F259,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",2011,193,50,26,24,Rainy,Scheduled,Overheated,4.6,1.7
+F260,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",2137,246,55,28,24,Rainy,Pending,Normal,2.8,3.1
+F261,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",2050,242,49,33,11,Snowy,Scheduled,Faulty,3.9,1.4
+F262,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",1904,232,46,29,14,Snowy,Completed,Normal,3.7,1.1
+F263,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1955,208,52,26,18,Windstorm,Completed,Faulty,2.6,2.3
+F264,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2048,229,48,37,26,Rainy,Scheduled,Faulty,4.9,4.1
+F265,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2064,219,51,20,12,Thunderstorm,Scheduled,Normal,5.6,2.5
+F266,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2084,247,47,40,25,Thunderstorm,Scheduled,Normal,5.8,3
+F267,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",1974,180,52,26,15,Clear,Pending,Faulty,4.9,3.5
+F268,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2121,231,55,39,28,Thunderstorm,Completed,Normal,3.5,4.7
+F269,Line Breakage,"Kigali, Kicukiro, Kanombe, Busanza",1982,240,48,37,20,Windstorm,Scheduled,Faulty,5.8,1.1
+F270,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",1918,232,45,26,24,Windstorm,Pending,Overheated,2.3,5.1
+F271,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",2177,207,48,31,13,Clear,Completed,Normal,5.7,3.5
+F272,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",2257,206,46,30,17,Thunderstorm,Scheduled,Normal,5.2,5.7
+F273,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1923,185,52,28,27,Rainy,Pending,Overheated,4.9,6.6
+F274,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2010,222,46,22,26,Thunderstorm,Scheduled,Overheated,3.1,3.6
+F275,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",2084,201,45,23,30,Thunderstorm,Scheduled,Overheated,3.1,2
+F276,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",1891,205,48,26,14,Snowy,Completed,Normal,4.6,2.4
+F277,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2170,206,50,40,19,Windstorm,Scheduled,Overheated,2.3,6.4
+F278,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",1817,248,47,33,13,Clear,Scheduled,Normal,2.3,3.5
+F279,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",1936,246,53,36,28,Thunderstorm,Completed,Faulty,2.6,7
+F280,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2029,234,47,39,24,Snowy,Completed,Faulty,4.4,6.6
+F281,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",2195,248,52,22,28,Clear,Pending,Normal,5.6,2.4
+F282,Overheating,"Kigali, Gasabo, Kimironko, Bibare",2086,241,51,40,28,Rainy,Scheduled,Overheated,2.7,6.3
+F283,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2239,249,46,27,27,Thunderstorm,Scheduled,Faulty,4.1,1.6
+F284,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",1891,185,51,35,16,Rainy,Scheduled,Overheated,4.5,4.1
+F285,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2124,249,46,30,24,Rainy,Pending,Faulty,6,3
+F286,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2196,183,45,22,20,Rainy,Pending,Overheated,4.3,1.5
+F287,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2024,248,55,31,11,Thunderstorm,Scheduled,Overheated,2.6,3.1
+F288,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",2058,217,49,28,15,Clear,Pending,Normal,4.4,4.5
+F289,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2193,189,47,25,19,Thunderstorm,Pending,Normal,3.3,3.8
+F290,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2106,186,45,28,17,Windstorm,Completed,Overheated,3.4,3.2
+F291,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",1993,195,48,33,14,Snowy,Pending,Normal,6,3.2
+F292,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",2201,228,45,37,11,Windstorm,Scheduled,Faulty,2.8,3.5
+F293,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2202,182,54,40,26,Rainy,Scheduled,Normal,2.2,5.8
+F294,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2070,195,53,36,10,Snowy,Pending,Overheated,3,6.1
+F295,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",2250,211,53,26,22,Rainy,Pending,Overheated,2.3,2.6
+F296,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2004,217,47,36,28,Snowy,Completed,Faulty,2.6,2.5
+F297,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",2169,247,51,26,13,Snowy,Completed,Normal,3.8,1.2
+F298,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",1999,200,50,31,19,Clear,Scheduled,Faulty,5.2,5.3
+F299,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",1950,204,45,22,25,Windstorm,Completed,Faulty,5.2,6.2
+F300,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2058,182,48,23,21,Rainy,Pending,Overheated,4,2.1
+F301,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2038,187,55,30,11,Snowy,Pending,Overheated,2.2,6.1
+F302,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",2296,225,48,36,18,Thunderstorm,Completed,Overheated,2.5,5.4
+F303,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2164,238,53,34,13,Thunderstorm,Scheduled,Overheated,5.9,2.4
+F304,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",1910,197,51,40,20,Rainy,Scheduled,Faulty,5.4,5.3
+F305,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",2058,243,50,32,13,Windstorm,Pending,Faulty,5.1,5.3
+F306,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",1894,206,45,20,28,Clear,Completed,Faulty,2.4,1.8
+F307,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2152,228,50,35,30,Windstorm,Completed,Overheated,3.1,6.9
+F308,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",2269,180,54,26,22,Snowy,Pending,Faulty,2.5,1.3
+F309,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2245,247,55,38,19,Clear,Pending,Faulty,2.9,3.4
+F310,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",1871,232,48,25,15,Rainy,Pending,Overheated,4,1.4
+F311,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",1839,191,49,21,19,Rainy,Pending,Overheated,3.6,5.5
+F312,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",1972,210,52,32,23,Windstorm,Pending,Normal,4.1,1.6
+F313,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1809,185,48,21,26,Rainy,Completed,Faulty,3.6,4.6
+F314,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",1837,221,48,23,15,Rainy,Completed,Faulty,3.4,5.9
+F315,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",1855,242,55,35,23,Thunderstorm,Pending,Normal,4.5,6.9
+F316,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",1859,210,49,37,10,Thunderstorm,Completed,Normal,3.4,2.4
+F317,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2070,197,51,21,16,Rainy,Pending,Faulty,4.5,1.7
+F318,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",2155,182,54,21,26,Snowy,Pending,Overheated,4.8,5.8
+F319,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2165,237,49,38,15,Windstorm,Pending,Overheated,4.3,6.7
+F320,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",1992,217,53,40,29,Thunderstorm,Pending,Overheated,4.7,5.6
+F321,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",1874,248,50,38,22,Thunderstorm,Scheduled,Normal,3.3,1.6
+F322,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",2091,204,47,26,13,Rainy,Scheduled,Faulty,5.1,5.7
+F323,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2280,187,51,39,10,Thunderstorm,Completed,Normal,3.6,1.7
+F324,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2026,202,48,29,27,Rainy,Pending,Overheated,2.9,5
+F325,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2260,246,47,37,10,Snowy,Scheduled,Faulty,5.8,6.3
+F326,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2089,235,50,20,27,Rainy,Completed,Overheated,5.1,4.3
+F327,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2201,250,51,38,22,Snowy,Completed,Overheated,2.3,6
+F328,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",1850,198,48,36,20,Thunderstorm,Completed,Normal,3,2.2
+F329,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2100,219,53,28,30,Clear,Scheduled,Normal,3.9,2.3
+F330,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",2107,230,51,22,11,Clear,Completed,Overheated,2.8,1.5
+F331,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",2296,183,45,22,22,Thunderstorm,Scheduled,Overheated,4.6,1.5
+F332,Overheating,"Kigali, Gasabo, Kimironko, Bibare",1964,186,52,33,15,Thunderstorm,Scheduled,Overheated,5.8,4.9
+F333,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1912,215,49,20,25,Windstorm,Completed,Overheated,3.1,2
+F334,Overheating,"Kigali, Gasabo, Remera, Giporoso",2171,231,51,24,29,Rainy,Completed,Normal,4.2,1.6
+F335,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",2272,229,45,25,28,Thunderstorm,Scheduled,Faulty,2.1,6.6
+F336,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",1899,205,48,34,17,Clear,Scheduled,Faulty,3.4,6.6
+F337,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",1855,239,53,22,24,Clear,Scheduled,Normal,4.7,1.5
+F338,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",2184,234,48,36,20,Rainy,Completed,Faulty,4.2,6.9
+F339,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",1838,249,49,29,18,Thunderstorm,Scheduled,Overheated,5.8,6.2
+F340,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",1950,245,45,23,23,Snowy,Completed,Normal,2.9,2.2
+F341,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2073,193,47,34,25,Thunderstorm,Scheduled,Normal,2.3,6
+F342,Overheating,"Kigali, Gasabo, Kimironko, Bibare",2220,248,47,23,30,Rainy,Completed,Overheated,5.7,3.5
+F343,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2051,236,48,33,17,Thunderstorm,Scheduled,Normal,5.4,2.1
+F344,Overheating,"Kigali, Gasabo, Remera, Giporoso",1973,209,54,34,10,Windstorm,Pending,Overheated,4.2,4.8
+F345,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",2032,241,45,32,25,Rainy,Completed,Overheated,5.1,1.9
+F346,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2076,198,46,25,15,Rainy,Pending,Faulty,3.3,2
+F347,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",1807,222,53,34,13,Snowy,Completed,Overheated,2.6,1.4
+F348,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2092,197,50,38,22,Windstorm,Pending,Normal,4.2,4.2
+F349,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",2111,249,49,37,10,Rainy,Scheduled,Normal,5.4,5.8
+F350,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2230,249,51,39,18,Thunderstorm,Completed,Overheated,2.5,6.3
+F351,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2083,188,55,22,19,Snowy,Completed,Overheated,4.2,3.7
+F352,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",1982,202,48,37,22,Windstorm,Completed,Faulty,2.8,5.6
+F353,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2031,215,51,22,29,Clear,Pending,Overheated,4.7,3.8
+F354,Overheating,"Kigali, Gasabo, Remera, Giporoso",1876,235,53,35,14,Rainy,Completed,Overheated,4.3,4
+F355,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",1962,247,45,32,30,Rainy,Pending,Overheated,5.2,3.2
+F356,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2258,226,51,32,29,Snowy,Pending,Faulty,4.3,1.2
+F357,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",1890,223,50,28,18,Rainy,Pending,Faulty,3.8,3.4
+F358,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",1950,203,55,27,30,Rainy,Pending,Overheated,5,6.1
+F359,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2281,204,53,38,13,Snowy,Completed,Normal,3,5.1
+F360,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",2169,241,47,30,22,Rainy,Pending,Normal,3.6,4.5
+F361,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",2200,227,46,27,26,Clear,Pending,Overheated,3.6,3.2
+F362,Overheating,"Kigali, Gasabo, Kimironko, Bibare",1997,221,45,39,20,Windstorm,Pending,Faulty,5.3,2.3
+F363,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2249,245,54,22,13,Windstorm,Pending,Faulty,2.7,2.2
+F364,Overheating,"Kigali, Gasabo, Remera, Giporoso",2206,184,46,31,16,Windstorm,Completed,Normal,3.3,3.7
+F365,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",1910,202,50,39,16,Windstorm,Completed,Overheated,5.4,4.1
+F366,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",1962,185,45,39,18,Rainy,Pending,Overheated,5.2,2.7
+F367,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2033,229,54,36,13,Thunderstorm,Pending,Faulty,4.2,4.6
+F368,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",1984,196,48,36,26,Thunderstorm,Completed,Faulty,2.7,1.8
+F369,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2197,234,51,21,20,Thunderstorm,Pending,Faulty,5.2,3.7
+F370,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",1870,243,50,36,20,Snowy,Pending,Overheated,3.4,4.5
+F371,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2164,216,47,36,14,Snowy,Pending,Normal,5.9,5.9
+F372,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",2277,180,45,21,14,Snowy,Completed,Overheated,2.9,4.9
+F373,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2129,194,50,30,12,Rainy,Scheduled,Faulty,3.4,1.2
+F374,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2177,203,55,23,19,Snowy,Completed,Overheated,4.1,3.3
+F375,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",1873,243,48,33,24,Windstorm,Pending,Faulty,4.6,1.9
+F376,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2178,201,50,29,16,Clear,Pending,Normal,5.2,2
+F377,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",1868,204,46,24,16,Thunderstorm,Scheduled,Overheated,2,2.8
+F378,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",2253,191,53,27,23,Snowy,Completed,Normal,2.8,4.3
+F379,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2041,231,53,22,24,Rainy,Scheduled,Faulty,3.9,2.9
+F380,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",1936,241,47,32,14,Thunderstorm,Scheduled,Faulty,2.6,1.5
+F381,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",2136,250,48,23,22,Clear,Pending,Normal,4.9,6.8
+F382,Overheating,"Kigali, Gasabo, Kimironko, Bibare",2151,207,48,34,16,Thunderstorm,Pending,Overheated,5.9,6.7
+F383,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2095,207,51,25,13,Windstorm,Completed,Overheated,5.4,1.5
+F384,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",1921,201,50,40,21,Rainy,Pending,Overheated,2.8,4.3
+F385,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",2171,239,52,27,15,Windstorm,Completed,Normal,5.8,4.4
+F386,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",2287,243,54,23,15,Windstorm,Pending,Overheated,3.8,2.1
+F387,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",1969,211,55,39,24,Thunderstorm,Completed,Overheated,2.5,3.9
+F388,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",2284,246,48,24,14,Clear,Pending,Normal,2.5,3.2
+F389,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",2080,204,47,21,11,Snowy,Pending,Faulty,4.4,6.6
+F390,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",2091,236,50,26,21,Thunderstorm,Completed,Normal,2.9,4.2
+F391,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",2204,185,48,20,18,Snowy,Scheduled,Faulty,4.6,5.9
+F392,Overheating,"Kigali, Gasabo, Kimironko, Bibare",1977,200,48,38,12,Clear,Scheduled,Overheated,4.3,5.7
+F393,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2139,183,46,29,16,Windstorm,Completed,Overheated,5.5,4.1
+F394,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",1802,233,52,22,16,Thunderstorm,Completed,Normal,4.4,1.7
+F395,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",1877,194,48,25,13,Windstorm,Completed,Faulty,5,1.8
+F396,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",1845,194,46,32,22,Clear,Scheduled,Normal,2.2,4.7
+F397,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2138,247,52,27,16,Thunderstorm,Pending,Overheated,2.9,2.8
+F398,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",2074,181,55,25,24,Snowy,Pending,Normal,2.6,5.7
+F399,Line Breakage,"Kigali, Kicukiro, Kanombe, Busanza",2204,230,55,36,14,Snowy,Scheduled,Overheated,4.7,6.9
+F400,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",1808,204,50,31,22,Clear,Pending,Overheated,4.6,5.8
+F401,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",1976,196,54,35,10,Clear,Scheduled,Faulty,2.5,2.7
+F402,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",2076,226,51,29,14,Rainy,Scheduled,Faulty,5.8,6.3
+F403,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2276,186,51,23,21,Thunderstorm,Scheduled,Faulty,2.9,4
+F404,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2026,190,51,33,28,Clear,Completed,Normal,2.5,6.2
+F405,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",1975,220,49,25,30,Clear,Scheduled,Overheated,4.8,2.7
+F406,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",1985,231,52,38,30,Windstorm,Completed,Faulty,5.6,2.8
+F407,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2198,224,50,29,23,Rainy,Scheduled,Faulty,3.9,1.6
+F408,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",1822,187,46,36,13,Clear,Scheduled,Normal,5.2,5.4
+F409,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2004,215,46,35,15,Windstorm,Pending,Normal,4.2,4.1
+F410,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",1875,183,46,30,11,Windstorm,Scheduled,Normal,4,3.5
+F411,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",1917,222,46,21,19,Snowy,Pending,Faulty,4,2.2
+F412,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",1812,182,54,33,15,Snowy,Pending,Overheated,4.7,3.7
+F413,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1815,206,46,37,10,Snowy,Scheduled,Overheated,5.2,5.7
+F414,Overheating,"Kigali, Gasabo, Remera, Giporoso",2270,236,49,33,22,Windstorm,Scheduled,Normal,3.4,1.4
+F415,Line Breakage,"Kigali, Gasabo, Kacyiru, Kamutwa",2043,182,45,21,18,Windstorm,Completed,Faulty,2.4,6.8
+F416,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2207,194,45,34,28,Windstorm,Pending,Faulty,2.5,2.5
+F417,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",1920,249,53,22,28,Snowy,Pending,Normal,3.3,5
+F418,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",1821,212,54,39,26,Clear,Pending,Faulty,4.6,4.6
+F419,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2110,247,52,40,17,Clear,Scheduled,Faulty,4.4,5.1
+F420,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",1949,193,51,32,13,Rainy,Scheduled,Faulty,3.1,1.3
+F421,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2225,202,50,33,15,Rainy,Pending,Overheated,5.9,5
+F422,Overheating,"Kigali, Gasabo, Kimironko, Bibare",1858,237,45,22,18,Rainy,Completed,Overheated,2.6,2.3
+F423,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2076,201,46,22,23,Clear,Scheduled,Overheated,4.7,1.2
+F424,Overheating,"Kigali, Gasabo, Remera, Giporoso",2276,249,46,27,21,Thunderstorm,Pending,Overheated,4.4,6.3
+F425,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",1857,190,52,20,27,Thunderstorm,Pending,Overheated,5.9,6.6
+F426,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",1836,249,51,28,19,Thunderstorm,Scheduled,Normal,5,3.7
+F427,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",1919,236,53,31,24,Clear,Pending,Normal,2.2,1.2
+F428,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2042,191,47,26,22,Thunderstorm,Scheduled,Faulty,4.4,1.5
+F429,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",2061,243,55,38,18,Rainy,Pending,Overheated,3.7,6.4
+F430,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",2096,241,55,40,11,Snowy,Scheduled,Overheated,3.4,5.3
+F431,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2097,234,46,31,23,Clear,Completed,Overheated,4.6,2.1
+F432,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",2083,208,50,32,21,Clear,Completed,Overheated,5.2,5.8
+F433,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2127,185,54,33,30,Snowy,Pending,Faulty,3.5,2.5
+F434,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",1936,237,53,29,14,Clear,Completed,Normal,2.6,3
+F435,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",1982,211,55,33,18,Thunderstorm,Pending,Normal,2,6.8
+F436,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2156,244,48,39,11,Windstorm,Scheduled,Faulty,3.6,1.9
+F437,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2017,182,54,22,12,Snowy,Scheduled,Normal,6,1.7
+F438,Overheating,"Kigali, Kicukiro, Kicukiro, Niboye",2107,200,48,33,13,Rainy,Scheduled,Faulty,4.9,6.4
+F439,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2270,212,50,37,26,Clear,Completed,Faulty,5.1,5.2
+F440,Line Breakage,"Kigali, Nyarugenge, Gitega, Nyabugogo",2184,218,52,24,18,Clear,Pending,Normal,3.7,4.9
+F441,Line Breakage,"Kigali, Gasabo, Remera, Nyarutarama",2203,233,51,22,25,Windstorm,Pending,Normal,5.1,1.8
+F442,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",2079,185,53,37,10,Windstorm,Completed,Overheated,2.6,2.6
+F443,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1853,208,50,39,15,Windstorm,Pending,Faulty,5.8,4.3
+F444,Overheating,"Kigali, Gasabo, Remera, Giporoso",2268,211,54,32,29,Thunderstorm,Completed,Faulty,5.7,3.3
+F445,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",1967,223,54,28,20,Clear,Scheduled,Normal,4.5,5.3
+F446,Overheating,"Kigali, Gasabo, Kimironko, Kibagabaga",2199,241,50,27,22,Clear,Completed,Normal,2.3,1.5
+F447,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2105,248,53,32,16,Windstorm,Completed,Normal,3.6,5.3
+F448,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",1967,227,54,21,22,Windstorm,Scheduled,Normal,2.1,4.9
+F449,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",2071,212,47,21,19,Windstorm,Completed,Overheated,5.5,5.7
+F450,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2020,243,51,21,20,Windstorm,Completed,Normal,2.1,5.7
+F451,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2050,236,50,37,10,Thunderstorm,Completed,Faulty,5.1,6.8
+F452,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",1814,234,47,27,21,Snowy,Completed,Faulty,5.1,6.1
+F453,Line Breakage,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1948,186,46,32,30,Snowy,Pending,Overheated,3.4,6.6
+F454,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",1882,203,46,25,14,Snowy,Scheduled,Faulty,3.7,6.3
+F455,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",1868,220,54,22,22,Clear,Scheduled,Normal,2.7,5.3
+F456,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",2236,244,49,37,26,Windstorm,Scheduled,Normal,5,6.9
+F457,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",2002,241,52,37,14,Rainy,Scheduled,Normal,4.3,6.3
+F458,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",1806,214,52,24,23,Snowy,Scheduled,Overheated,5.2,1.5
+F459,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",1904,247,49,27,25,Snowy,Scheduled,Faulty,3.4,4.5
+F460,Transformer Failure,"Kigali, Nyarugenge, Gitega, Nyabugogo",2036,250,50,40,15,Snowy,Completed,Overheated,2.7,1.8
+F461,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",2057,221,49,31,18,Clear,Scheduled,Overheated,5.8,2.5
+F462,Overheating,"Kigali, Gasabo, Kimironko, Bibare",1973,198,48,22,13,Rainy,Scheduled,Normal,5.7,6.9
+F463,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2177,242,55,39,12,Windstorm,Completed,Faulty,5.1,2.5
+F464,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",1885,242,47,20,16,Thunderstorm,Pending,Faulty,4.7,5.9
+F465,Transformer Failure,"Kigali, Gasabo, Kacyiru, Kamutwa",2077,187,46,39,22,Rainy,Scheduled,Faulty,3.3,4.8
+F466,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",1917,221,53,36,14,Snowy,Pending,Normal,3.3,2.4
+F467,Transformer Failure,"Kigali, Kicukiro, Gikondo, Kigarama",2241,193,53,22,22,Windstorm,Completed,Overheated,3.1,6.4
+F468,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",1930,212,55,31,18,Snowy,Completed,Normal,5.3,2.3
+F469,Overheating,"Kigali, Kicukiro, Kanombe, Busanza",2043,207,52,37,13,Clear,Pending,Overheated,4.6,6.5
+F470,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2105,195,47,37,24,Thunderstorm,Pending,Overheated,3,4.2
+F471,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2017,247,53,24,29,Clear,Completed,Faulty,3.9,5.2
+F472,Transformer Failure,"Kigali, Gasabo, Kimironko, Bibare",2148,197,49,32,17,Clear,Scheduled,Overheated,5.9,4.2
+F473,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1867,206,53,40,17,Thunderstorm,Completed,Normal,4.1,2.4
+F474,Line Breakage,"Kigali, Gasabo, Remera, Giporoso",2130,250,52,20,22,Rainy,Pending,Normal,5.9,4.1
+F475,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2085,207,47,24,13,Clear,Scheduled,Normal,2.7,2.1
+F476,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",1997,239,51,32,13,Clear,Scheduled,Overheated,5.4,4.6
+F477,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2166,229,46,20,27,Clear,Completed,Normal,3.5,5.8
+F478,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",2259,250,49,30,30,Rainy,Pending,Normal,4.4,5.5
+F479,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2192,250,55,24,16,Snowy,Completed,Faulty,5.5,4.5
+F480,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",1901,182,52,32,15,Clear,Completed,Faulty,5.8,6.7
+F481,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",1969,182,45,33,23,Windstorm,Completed,Faulty,2.4,1.1
+F482,Overheating,"Kigali, Gasabo, Kimironko, Bibare",2244,191,46,27,19,Clear,Completed,Overheated,3.3,3.4
+F483,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1821,246,54,20,21,Thunderstorm,Scheduled,Faulty,3.7,2.2
+F484,Overheating,"Kigali, Gasabo, Remera, Giporoso",2090,231,47,32,29,Windstorm,Scheduled,Overheated,2.9,3.6
+F485,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",1860,240,53,40,25,Thunderstorm,Scheduled,Faulty,2.1,5.8
+F486,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",1839,238,51,20,29,Rainy,Scheduled,Normal,5.8,1.8
+F487,Overheating,"Kigali, Kicukiro, Gikondo, Kigarama",2234,246,54,37,15,Windstorm,Scheduled,Faulty,5.9,4.3
+F488,Line Breakage,"Kigali, Kicukiro, Kicukiro, Niboye",2092,227,47,22,24,Snowy,Completed,Overheated,3.3,6.7
+F489,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",1846,197,52,29,22,Thunderstorm,Scheduled,Normal,2.4,5
+F490,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2111,231,47,33,18,Rainy,Scheduled,Normal,4.4,3.9
+F491,Overheating,"Kigali, Gasabo, Remera, Nyarutarama",2215,213,50,28,14,Clear,Pending,Faulty,4.7,3.2
+F492,Line Breakage,"Kigali, Gasabo, Kimironko, Bibare",1864,180,54,24,14,Snowy,Completed,Normal,4.8,1.1
+F493,Overheating,"Kigali, Nyarugenge, Nyamirambo, Rugarama",1912,223,51,28,11,Windstorm,Scheduled,Normal,5.3,2.7
+F494,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2270,221,49,20,11,Clear,Completed,Overheated,4.6,6.5
+F495,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2167,237,48,22,14,Windstorm,Scheduled,Faulty,5.8,4.3
+F496,Transformer Failure,"Kigali, Gasabo, Kimironko, Kibagabaga",2202,224,53,40,11,Clear,Scheduled,Overheated,3.5,1
+F497,Line Breakage,"Kigali, Kicukiro, Gikondo, Kigarama",1855,191,50,25,23,Clear,Pending,Normal,5,2.4
+F498,Transformer Failure,"Kigali, Kicukiro, Kicukiro, Niboye",1902,185,45,34,12,Windstorm,Pending,Faulty,4.7,1
+F499,Transformer Failure,"Kigali, Kicukiro, Kanombe, Busanza",2134,191,53,38,19,Thunderstorm,Pending,Faulty,4.8,2.4
+F500,Overheating,"Kigali, Nyarugenge, Gitega, Nyabugogo",2039,232,54,37,28,Rainy,Completed,Faulty,2.5,2.5
+F501,Transformer Failure,"Kigali, Gasabo, Remera, Nyarutarama",2175,191,54,36,14,Windstorm,Scheduled,Faulty,5.2,1.5
+F502,Overheating,"Kigali, Gasabo, Kimironko, Bibare",1970,185,47,31,27,Thunderstorm,Completed,Normal,4.7,1.4
+F503,Transformer Failure,"Kigali, Nyarugenge, Nyamirambo, Rugarama",2204,226,52,28,26,Rainy,Completed,Normal,3.7,1.4
+F504,Transformer Failure,"Kigali, Gasabo, Remera, Giporoso",2181,234,52,26,28,Thunderstorm,Scheduled,Overheated,6,6.3
+F505,Overheating,"Kigali, Gasabo, Kacyiru, Kamutwa",2295,202,50,27,22,Snowy,Completed,Normal,4.2,3
+F506,Line Breakage,"Kigali, Gasabo, Kimironko, Kibagabaga",1941,186,51,31,24,Thunderstorm,Completed,Faulty,2.3,6.8

@@ -1,0 +1,46 @@
+
+POST http://127.0.0.1:8000/api/login/
+Content-Type: application/json
+
+{
+    "email": "test1@gmail.com",
+    "password": "strongpassword123"
+}
+### Create a new problem (POST request)
+POST http://127.0.0.1:8000/api/problems/create/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDMxMDk3LCJpYXQiOjE3NDM0MjkyOTcsImp0aSI6IjE1Mjg0Yjk1NjE5OTQxOGY4MTg3ZTVmNGYwZjljMDhkIiwidXNlcl9pZCI6Mzd9.Nbbqviptp9uvEcZevifljtGLZsn9_DWEq-z8u4KyF6c
+Content-Type: application/json
+
+{
+    "user_id": 72,
+    "name": "John Doe",
+    "email": "johndoe@gmail.com",
+    "location": "Kigali, Nyarugenge, Kimihurura",
+    "description": "Power outage due to transformer failure."
+}
+### Get all problems (GET request)
+GET http://127.0.0.1:8000/api/problems/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDI1Nzc1LCJpYXQiOjE3NDM0MjM5NzUsImp0aSI6IjAwODUyYjhhMDM3MTRmNTA5ZDY0MjUwODU1MDU1NGYwIiwidXNlcl9pZCI6Mzd9.c6QaPsyRJJ6OwqhbvPt6sIPjJI72zeeoh-g6PPBNmtU
+Content-Type: application/json
+
+### Get a problem by problem_id (GET request)
+GET http://127.0.0.1:8000/api/problems/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDE0ODUwLCJpYXQiOjE3NDM0MTMwNTAsImp0aSI6IjYxZjhjMDRiZTk3OTRiZDA4YWVmYmNiYzNmMjE0YjMyIiwidXNlcl9pZCI6Mzd9.BH9o8--zUNtAQl339SrdCD0kq2T9OZKgrR3tiHPIKm0
+Content-Type: application/json
+
+### Update  a problem 
+PATCH http://127.0.0.1:8000/api/problems/2/update/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDE0ODUwLCJpYXQiOjE3NDM0MTMwNTAsImp0aSI6IjYxZjhjMDRiZTk3OTRiZDA4YWVmYmNiYzNmMjE0YjMyIiwidXNlcl9pZCI6Mzd9.BH9o8--zUNtAQl339SrdCD0kq2T9OZKgrR3tiHPIKm0
+Content-Type: application/json
+
+{
+    "user_id": 70,
+    "name": "John Doe Updated",
+    "email": "johndoe_updated@gmail.com",
+    "location": "Kigali, Kicukiro, Gikondo",
+    "description": "Updated description of the fault."
+}
+
+### Delete a problem by problem_id (DELETE request)
+DELETE http://127.0.0.1:8000/api/problems/2/delete/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzNDE0ODUwLCJpYXQiOjE3NDM0MTMwNTAsImp0aSI6IjYxZjhjMDRiZTk3OTRiZDA4YWVmYmNiYzNmMjE0YjMyIiwidXNlcl9pZCI6Mzd9.BH9o8--zUNtAQl339SrdCD0kq2T9OZKgrR3tiHPIKm0
